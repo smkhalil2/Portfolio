@@ -5,6 +5,7 @@ const resumeUrl =
   "https://onedrive.live.com/?cid=05CF22F9030FB4A0&id=05cf22f9030fb4a0%2130113&parId=05cf22f9030fb4a0%2129886&o=OneUp";
 
 const Navbar = () => {
+  const [isFocused, setFocus] = useState(false); 
   const [menuIsOpen, toggleMenu] = useState(false);
   const [darkMode, toggleTheme] = useState(true);
   const handleToggleMenu = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
   return (
     // Navbar -tmp highlight with red border
     // <nav className='bg-[#0F0F0F]'>
-    <nav>
+    <nav className="sticky top-0 z-50 bg-[#1E1E1E]">
       <div className="max-w-6xl m-2 md:mx-auto mx-4 ">
         <div className="flex justify-between items-center">
           <div className="flex space-x-4">
@@ -28,19 +29,19 @@ const Navbar = () => {
               className="text-3xl h-20 w-40 font-extrabold px-2"
               style={{ fontFamily: "Major Mono Display" }}
             >
-              <Link href="#home">shadi khalil</Link>
+              <Link href="/">shadi khalil</Link>
             </div>
             {/* primary nav links */}
             <div className="hidden md:flex flex-row space-x-8 items-center">
               <Link
                 className="hover:text-[#574ecc] hover:duration-300"
-                href="#about"
+                href="/about"
               >
                 About
               </Link>
               <Link
                 className="hover:text-[#574ecc] hover:duration-300"
-                href="#projects"
+                href="/#projects"
               >
                 Projects
               </Link>
@@ -52,7 +53,7 @@ const Navbar = () => {
               </Link> */}
               <Link
                 className="hover:text-[#574ecc] hover:duration-300"
-                href="#contact"
+                href="/#contact"
               >
                 Contact
               </Link>
@@ -95,8 +96,11 @@ const Navbar = () => {
               )}
             </button> */}
             <Link
-              className="px-4 py-2 bg-transparent border-2 border-[#574ecc] rounded-full
-                            hover:bg-[#574ecc] hover:duration-300 hover:scale-[1.1]"
+              className="px-4 py-2 bg-transparent border-2 border-[#574ecc] hover:bg-[#574ecc]  rounded-full
+                             hover:duration-300 hover:scale-[1.1]"
+              onMouseEnter={() => setFocus(true)}
+              onMouseLeave={() => setFocus(false)}
+              style={{boxShadow: isFocused ? '0px 0px 12px #574ecc' : 'none'}}
               target="_blank"
               href={resumeUrl}
               rel="noopener noreferrer"
@@ -167,7 +171,7 @@ const Navbar = () => {
           </Link>
           <Link
             className="block py-2 px-4 text-sm hover:bg-[#574ecc] hover:duration-300 hover:scale-[1.05]"
-            href="/projects"
+            href="/#projects"
           >
             Projects
           </Link>
@@ -179,7 +183,7 @@ const Navbar = () => {
           </Link> */}
           <Link
             className="block py-2 px-4 text-sm hover:bg-[#574ecc] hover:duration-300 hover:scale-[1.05]"
-            href="/contact"
+            href="/#contact"
           >
             Contact
           </Link>

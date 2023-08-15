@@ -8,7 +8,7 @@ const Skills =  () => {
     ))
     return(
         <div>
-            <ul className='flex md:flex-row flex-wrap justify-around items-center'>
+            <ul className='flex md:flex-row flex-wrap justify-evenly '>
             {skillBadges}
             </ul>
         </div>

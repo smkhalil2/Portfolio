@@ -5,13 +5,13 @@ const About = () => {
   const durationScaler = 50;
 
   return (
-    <div id='about' className="p-8">
-    
+    <div id='about' className="px-16 py-8 bg-[#0F0F0F]">
+    {/* <div className='px-16'> */}
       {/* About text and image slide show */}
-      <h1 className='mt-16 ml-8 text-3xl font-bold'>About</h1>
-      <div className='flex md:flex-row flex-col w-full w-full md:ml-8 ml-2'>
-            <div className='w-full h-48 mt-8 md:p-0 p-4 overflow-auto md:overflow-visible bg-[#0F0F0F] md:bg-transparent rounded'>
-            <RoughNotationGroup show={true}>
+      <h1 className='mt-8 ml-8 text-3xl font-bold'>About </h1>
+      <div className='flex lg:flex-row flex-col w-full lg:ml-8 ml-2 '>
+            <div className='w-full h-48 mt-8 lg:p-0 p-4 lg:overflow-visible overflow-auto rounded'>
+            <RoughNotationGroup show={false}>
                 <p>
                 I am a skilled <Highlight type='underline' color='#90fcef' durationScaler={durationScaler}>web designer</Highlight> and <Highlight type='underline' color='#90fcef' durationScaler={durationScaler}>software developer</Highlight> with 
                 3 years experience as an IT Systems Specialist. I
@@ -31,7 +31,7 @@ const About = () => {
                 </RoughNotationGroup>
             </div>
             {/* Image */}
-            <div className="md:scale-[0.9] scale-[0.7] w-full h-full">
+            <div className="lg:scale-[0.9] scale-[0.7] w-full h-full">
                 <Slideshow />
             </div>
         </div>

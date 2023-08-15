@@ -9,13 +9,13 @@ const Contact = () => {
 //   const [message, updateMessage, resetMessage] = useInputState("");
 
   return (
-    <div id="contact">
-      <h1 className="text-3xl font-extrabold ml-16 mt-16">Contact</h1>
+    <div id="contact" className='p-16'>
+      <h1 className="text-3xl font-extrabold ml-16">Contact</h1>
       <div className="flex md:flex-row flex-col m-4 ml-16">
         <div className="flex flex-col mb-8">
           <p>
-            Shadi Khalil <br /> Washington DC Metro Area <br />{" "}
-            smkhalil.311@gmail.com <br />{" "}
+            Shadi Khalil <br /> Washington DC Metro Area <br />
+            smkhalil.311@gmail.com <br />
             <Link
               className="hover:decoration-auto"
               href="https://www.linkedin.com/in/shadikhalil/"
