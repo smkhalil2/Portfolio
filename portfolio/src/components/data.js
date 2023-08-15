@@ -97,7 +97,7 @@ export const slideImages = [
         index: 1
     },
     {
-        src: '/images/slideshow/performing.jpg',
+        src: '/images/slideshow/Performing.jpg',
         caption: 'Performing live in Washington DC, 2023',
         index: 2
     },
