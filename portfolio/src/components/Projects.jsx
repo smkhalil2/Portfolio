@@ -7,7 +7,7 @@ const Projects = () => {
         <ProjectCard key={project.id} title={project.title} description={project.description} link={project.gitHubLink} img={project.img} />
     ))
     return (
-        <div id='projects' className='p-16'>
+        <div id='projects' className='lg:p-16 lg:mt-0 mt-16'>
             <h1 className='ml-16 text-3xl font-bold mb-4'>Projects</h1>
             {/* Project List */}
             <div className='flex flex-wrap ml-12 '>
