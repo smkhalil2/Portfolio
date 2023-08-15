@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       <hr style={{ border: "1px solid #4F42EA" }} />
       <div className="flex justify-between items-center mt-8">
-        <p className="md:ml-16 ml-8">© {new Date().getFullYear()} Shadi's Portfolio</p>
+        <p className="md:ml-16 ml-8">© {new Date().getFullYear()} Shadi&#39;s Portfolio</p>
         <div className="flex flex-row justify-between">
           <a
             href="https://github.com/smkhalil2"

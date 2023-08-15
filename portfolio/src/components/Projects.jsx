@@ -4,7 +4,7 @@ import { projectData } from './data';
 
 const Projects = () => {
     const projects = projectData.map(project =>(
-        <ProjectCard title={project.title} description={project.description} link={project.gitHubLink} img={project.img} />
+        <ProjectCard key={project.id} title={project.title} description={project.description} link={project.gitHubLink} img={project.img} />
     ))
     return (
         <div id='projects' className='p-16'>

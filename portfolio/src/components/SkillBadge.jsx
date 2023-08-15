@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 
 const SkillBadge = ({ name, logo, color }) => {
   // console.log(color)
@@ -15,7 +16,10 @@ const SkillBadge = ({ name, logo, color }) => {
     >
       <div className="mr-2">{name}</div>
       {/* Specific styling for HTML or logo is bigger than CSS and looks weird */}
-      <img
+      <Image
+        priority
+        width={800} 
+        height={800}
         className={`w-6 h-6 ${name === "HTML" && "w-[19px] h-[19px]"}`}
         alt={`${name}-icon`}
         src={logo}

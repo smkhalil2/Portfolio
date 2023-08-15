@@ -14,7 +14,7 @@ export default function Home() {
     <>
     <Head>
 				<title>Shadi's Portfolio</title>
-				<meta name="description" content="Shadi's Portfolio" />
+				<meta name="description" content="Shadi&#39;s Portfolio" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <link href="/dist/output.css" rel="stylesheet"></link> */}
 				{/* <link rel="icon" href="/favicon.jpeg" /> */}

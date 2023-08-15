@@ -36,9 +36,8 @@ export default function Slideshow() {
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
         {slideImages.map((src, index) => (
-          <div className="slide flex flex-col items-center">
+          <div key={src} className="slide flex flex-col items-center">
             <div
-             key={src}
              className='w-full h-full rounded-md overflow-hidden bg-center bg-cover'
              style={{backgroundImage: `url(${slideImages[index].src})`}}
             >
