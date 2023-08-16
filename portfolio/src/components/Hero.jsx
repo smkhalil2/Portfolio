@@ -17,7 +17,7 @@ const Hero = ({darkMode}) => {
           width={1200}
           height={1200}
           src="/images/profile-pic.jpg"
-          className="lg:w-[65%] w-[50%] my-10 rounded-full ring-8 ring-[#f0f0f0] dark:ring-[#0F0F0F] hover:ring-offset-4 hover:ring-offset-[#574ecc] dark:hover:ring-offset-[#90fcef] "
+          className="lg:w-[65%] w-[50%] my-10 rounded-full ring-8 ring-[#f0f0f0] dark:ring-[#0F0F0F] hover:ring-[#90fcef] dark:hover:ring-[#90fcef]"
           alt="Shadi's personal headshot"
         />
       </div>
