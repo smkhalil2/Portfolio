@@ -1,32 +1,34 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 // import { useTheme } from "next-themes"
 import Link from "next/link";
+import ThemeContext from "@/theme/ThemeContext";
 const resumeUrl =
   "https://1drv.ms/w/s!AqC0DwP5Is8Fgep3aw5G0k7mkADaGQ?e=tzpEgr";
 
 const Navbar = () => {
+  const { dark, toggleDark } = useContext(ThemeContext); 
   const [isFocused, setFocus] = useState(false); 
   const [menuIsOpen, toggleMenu] = useState(false);
-  const [darkMode, toggleTheme] = useState(true);
+  // const [darkMode, toggleTheme] = useState(true);
   const handleToggleMenu = () => {
     toggleMenu(!menuIsOpen);
   };
 
   //   Not implemented yet
-  const handleToggleTheme = () => {
-    toggleTheme(!darkMode);
-  };
+  // const handleToggleTheme = () => {
+  //   toggleTheme(!darkMode);
+  // };
 
   return (
     // Navbar -tmp highlight with red border
     // <nav className='bg-[#0F0F0F]'>
-    <nav className="sticky top-0 z-50 bg-[#1E1E1E] shadow-md shadow-black">
+    <nav className="sticky top-0 z-50 #FFFFFF bg-[#F0F0F0] dark:bg-[#1E1E1E] shadow-md shadow-black">
       <div className="max-w-6xl m-2 md:mx-auto mx-4 ">
         <div className="flex justify-between items-center">
           <div className="flex space-x-4">
             {/* logo */}
             <div
-              className="text-3xl h-20 w-40 font-extrabold px-2"
+              className="text-3xl h-20 w-40 font-extrabold px-2 text-[#574ecc] dark:text-[#ededf0]"
               style={{ fontFamily: "Major Mono Display" }}
             >
               <Link href="/">shadi khalil</Link>
@@ -34,13 +36,13 @@ const Navbar = () => {
             {/* primary nav links */}
             <div className="hidden md:flex flex-row space-x-8 items-center">
               <Link
-                className="hover:text-[#574ecc] hover:duration-300"
+                className="text-[#574ecc] dark:text-[#ededf0] hover:text-[#574ecc80] hover:duration-300"
                 href="/about"
               >
                 About
               </Link>
               <Link
-                className="hover:text-[#574ecc] hover:duration-300"
+                className="text-[#574ecc] dark:text-[#ededf0] hover:text-[#574ecc80] hover:duration-300"
                 href="/#projects"
               >
                 Projects
@@ -52,7 +54,7 @@ const Navbar = () => {
                 Timeline
               </Link> */}
               <Link
-                className="hover:text-[#574ecc] hover:duration-300"
+                className="text-[#574ecc] dark:text-[#ededf0] hover:text-[#574ecc80] hover:duration-300"
                 href="/#contact"
               >
                 Contact
@@ -61,8 +63,8 @@ const Navbar = () => {
           </div>
           {/* secondary nav, toggle theme and outbound link */}
           <div className="hidden md:flex space-x-4 px-3">
-            {/* <button onClick={handleToggleTheme}>
-              {darkMode && (
+            <button onClick={() => toggleDark()}>
+              {dark && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -78,14 +80,15 @@ const Navbar = () => {
                   />
                 </svg>
               )}
-              {!darkMode && (
+              {!dark && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
-                  stroke="currentColor"
+                  stroke="#574ecc"
                   className="w-6 h-6"
+                  
                 >
                   <path
                     strokeLinecap="round"
@@ -94,9 +97,9 @@ const Navbar = () => {
                   />
                 </svg>
               )}
-            </button> */}
+            </button>
             <Link
-              className="px-4 py-2 bg-transparent border-2 border-[#574ecc] hover:bg-[#574ecc]  rounded-full
+              className="px-4 py-2 bg-transparent border-2 border-[#574ecc] text-[#574ecc] dark:text-[#ededf0] hover:text-[#574ecc80] hover:bg-[#574ecc] hover:text-[#ededf0] rounded-full
                              hover:duration-300 hover:scale-[1.1]"
               onMouseEnter={() => setFocus(true)}
               onMouseLeave={() => setFocus(false)}
@@ -113,7 +116,7 @@ const Navbar = () => {
             <div className="md:hidden flex items-center">
               <button
                 onClick={handleToggleMenu}
-                className="hover:text-[#574ecc]"
+                className="hover:text-[#574ecc80] text-[#574ecc] dark:text-[#ededf0]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +139,7 @@ const Navbar = () => {
             <div className="md:hidden flex items-center">
               <button
                 onClick={handleToggleMenu}
-                className="hover:text-[#574ecc]"
+                className="hover:text-[#574ecc80] text-[#574ecc] dark:text-[#ededf0]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -158,19 +161,19 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       {menuIsOpen && (
-        <div className="md:hidden absolute inset-x-2 top-30 z-40 bg-[#0F0F0F] justify-end">
+        <div className="md:hidden absolute inset-x-2 top-30 z-40 bg-[#ededf0] dark:bg-[#0F0F0F] justify-end">
           {/* <button onClick={handleToggleMenu} className="px-28 py-5">
             {" "}
             X{" "}
           </button> */}
           <Link
-            className="block py-2 px-4 text-sm hover:bg-[#574ecc] hover:duration-300 hover:scale-[1.05]"
+            className="block py-2 px-4 text-sm text-[#574ecc] dark:text-[#ededf0] hover:bg-[#574ecc] hover:text-[#ededf0] hover:duration-300 hover:scale-[1.05]"
             href="/about"
           >
             About
           </Link>
           <Link
-            className="block py-2 px-4 text-sm hover:bg-[#574ecc] hover:duration-300 hover:scale-[1.05]"
+            className="block py-2 px-4 text-sm text-[#574ecc] dark:text-[#ededf0] hover:bg-[#574ecc] hover:text-[#ededf0] hover:duration-300 hover:scale-[1.05]"
             href="/#projects"
           >
             Projects
@@ -182,13 +185,13 @@ const Navbar = () => {
             Timeline
           </Link> */}
           <Link
-            className="block py-2 px-4 text-sm hover:bg-[#574ecc] hover:duration-300 hover:scale-[1.05]"
+            className="block py-2 px-4 text-sm text-[#574ecc] dark:text-[#ededf0] hover:bg-[#574ecc] hover:text-[#ededf0] hover:duration-300 hover:scale-[1.05]"
             href="/#contact"
           >
             Contact
           </Link>
           <Link
-            className="block py-2 px-4 text-sm hover:bg-[#574ecc] hover:duration-300 hover:scale-[1.05]"
+            className="block py-2 px-4 text-sm text-[#574ecc] dark:text-[#ededf0] hover:bg-[#574ecc] hover:text-[#ededf0] hover:duration-300 hover:scale-[1.05]"
             target="_blank"
             href={resumeUrl}
             rel="noopener noreferrer"

@@ -8,7 +8,7 @@ const Projects = () => {
     ))
     return (
         <div id='projects' className='lg:p-16 p-4 lg:mt-0 mt-16'>
-            <h1 className='ml-4 text-3xl font-bold mb-4'>Projects</h1>
+            <h1 className='ml-4 text-3xl font-bold mb-4 text-[#574ecc] dark:text-[#F0F0F0]'>Projects</h1>
             {/* Project List */}
             <div className='flex flex-wrap'>
                 {projects}

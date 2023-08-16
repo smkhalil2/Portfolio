@@ -5,7 +5,7 @@ const About = () => {
   const durationScaler = 50;
 
   return (
-    <div id='about' className="lg:px-16 lg:py-8 p-4 bg-[#0F0F0F]">
+    <div id='about' className="lg:px-16 lg:py-8 p-4 dark:bg-[#0F0F0F] text-[#574ecc] dark:text-[#F0F0F0]">
     {/* <div className='px-16'> */}
       {/* About text and image slide show */}
       <h1 className='mt-8 ml-8 text-3xl font-bold'>About </h1>
