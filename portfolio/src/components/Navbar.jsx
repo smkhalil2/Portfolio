@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     // Navbar -tmp highlight with red border
     // <nav className='bg-[#0F0F0F]'>
-    <nav className="sticky top-0 z-50 #FFFFFF bg-[#E1E4F0] dark:bg-[#1E1E1E] shadow-md shadow-slate-800 dark:shadow-black">
+    <nav className="sticky top-0 z-50 #FFFFFF bg-[#E1E4F0] dark:bg-[#1E1E1E] shadow-md shadow-slate-600 dark:shadow-black">
       <div className="max-w-6xl m-2 md:mx-auto mx-4 ">
         <div className="flex justify-between items-center">
           <div className="flex space-x-4">
