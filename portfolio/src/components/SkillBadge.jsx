@@ -8,7 +8,7 @@ const SkillBadge = ({ name, logo, color }) => {
   return (
     <div
       className={`badge flex text-[#ededf0] md:w-auto w-36 h-fit px-4 py-2 m-2 rounded-full 
-            hover:cursor-default hover:scale-[1.1] hover:duration-300 items-center justify-center`}
+            hover:cursor-default hover:scale-[1.1] lg:hover:duration-300 items-center justify-center`}
       onMouseEnter={() => setFocus(true)}
       onMouseLeave={() => setFocus(false)}
       style={{  boxShadow: isFocused ? `0px 0px 10px ${color}`: 'none',
