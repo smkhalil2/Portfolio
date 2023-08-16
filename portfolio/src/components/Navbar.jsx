@@ -2,7 +2,7 @@ import { useState } from "react";
 // import { useTheme } from "next-themes"
 import Link from "next/link";
 const resumeUrl =
-  "https://onedrive.live.com/?cid=05CF22F9030FB4A0&id=05cf22f9030fb4a0%2130113&parId=05cf22f9030fb4a0%2129886&o=OneUp";
+  "https://1drv.ms/w/s!AqC0DwP5Is8Fgep3aw5G0k7mkADaGQ?e=tzpEgr";
 
 const Navbar = () => {
   const [isFocused, setFocus] = useState(false); 

@@ -4,7 +4,7 @@ import Skills from "./Skills";
 const Hero = () => {
   return (
     <div className="flex flex-col">
-    <div className="flex lg:flex-row flex-col items-center bg-[url('/images/Spider-Gwen-PhotoRoom.png')] bg-cover backdrop-blur-sm">
+    <div className="flex lg:flex-row flex-col items-center bg-[url('/images/Spider-Gwen-PhotoRoom.png')] bg-cover">
       <div className="flex flex-col lg:px-28 px-8 lg:mt-0 mt-8 w-[100%] ">
         <h2 className="font-extrabold text-4xl text-[#90fcef]">Hi, I&#39;m Shadi</h2>
         <p className='text-xl'>
