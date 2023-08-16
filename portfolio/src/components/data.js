@@ -1,18 +1,5 @@
 export const projectData = [
-    {
-        id: 1,
-        title: "LilyHoney",
-        description: "eCommerce Site UI",
-        gitHubLink: 'https://www.figma.com/file/q9tbUjKEpxhwjOu3cShHQu/LilyHoney-eCom-V1?type=design&node-id=101%3A22&mode=design&t=rePnqbldSv5dgEkT-1',
-        img: '/images/projects/lilyhoney4.png'
-    },
-    {
-        id: 2,
-        title: "Color Palette Maker",
-        description: "ReactJS App",
-        gitHubLink: 'https://github.com/smkhalil2/Color-Palette-Project',
-        img: '/images/projects/colorpalette.png'
-    },
+    
     {
         id: 3,
         title: "Genome Assembler",
@@ -33,6 +20,20 @@ export const projectData = [
         description: "Android Fitness App",
         gitHubLink: 'https://youtu.be/U42hCzOBTfI',
         img: '/images/projects/healthify.png'
+    },
+    {
+        id: 1,
+        title: "LilyHoney",
+        description: "eCommerce Site UI (In Progress)",
+        gitHubLink: 'https://www.figma.com/file/q9tbUjKEpxhwjOu3cShHQu/LilyHoney-eCom-V1?type=design&node-id=101%3A22&mode=design&t=rePnqbldSv5dgEkT-1',
+        img: '/images/projects/lilyhoney4.png'
+    },
+    {
+        id: 2,
+        title: "Color Palette Maker",
+        description: "ReactJS App (In Progress)",
+        gitHubLink: 'https://github.com/smkhalil2/Color-Palette-Project',
+        img: '/images/projects/colorpalette.png'
     },
     {
         id: 6,

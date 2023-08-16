@@ -2,7 +2,7 @@ import { useState, useContext } from "react";
 import ThemeContext from "@/theme/ThemeContext";
 import Image from "next/image";
 
-const SkillBadge = ({ darkMode, name, logo, color }) => {
+const SkillBadge = ({ name, logo, color }) => {
   const { dark } = useContext(ThemeContext);
   // console.log(color)
 
