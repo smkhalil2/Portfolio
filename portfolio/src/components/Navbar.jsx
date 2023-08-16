@@ -3,7 +3,7 @@ import { useState, useContext } from "react";
 import Link from "next/link";
 import ThemeContext from "@/theme/ThemeContext";
 const resumeUrl =
-  "https://1drv.ms/w/s!AqC0DwP5Is8Fgep3aw5G0k7mkADaGQ?e=tzpEgr";
+  "https://1drv.ms/b/s!AqC0DwP5Is8FgeshYgSXj6ROL8yBeA?e=KDfYtc";
 
 const Navbar = () => {
   const { dark, toggleDark } = useContext(ThemeContext); 
