@@ -1,14 +1,10 @@
-import { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 const Layout = ({ children }) => {
-  const [darkMode, toggleDarkMode] = useState(true);
-  const handleToggleTheme = () => {
-    toggleDarkMode(!darkMode)
-  }
+ 
   
   return (
     // removed items-center so bar would take up whole screen

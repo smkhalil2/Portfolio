@@ -2,13 +2,13 @@
 
 import React, { createContext, useEffect, useState } from 'react'; 
 const defaultState = {
-    dark: false, 
+    dark: true, 
     toggleDark: () => {},
 };
 
 const ThemeContext = createContext(defaultState); 
 const ThemeProvider = ({children}) => {
-    const [dark, setDark] = useState(false); 
+    const [dark, setDark] = useState(true); 
     useEffect(() => {
         const lsDark = localStorage.getItem('dark'); 
         if (lsDark !== null) {
