@@ -1,5 +1,7 @@
 //adapted from codepen https://codepen.io/bnsddk/pen/dyXaNod
+import ThemeContext from "@/theme/ThemeContext";
 import React, { useState, useEffect, useRef } from "react";
+import { useContext } from "react";
 import { slideImages } from "./data";
 
 const delay = 4000;
@@ -42,7 +44,7 @@ export default function Slideshow() {
              style={{backgroundImage: `url(${slideImages[index].src})`}}
             >
             </div>
-            <div className='flex justify-center m-4 text-[#90fcef]'>
+            <div className='flex justify-center m-4 text-[#574ecc] dark:text-[#90fcef]'>
             <p>{slideImages[index].caption}</p>
             </div>
           </div>
