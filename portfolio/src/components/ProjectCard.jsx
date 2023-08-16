@@ -12,7 +12,7 @@ const ProjectCard = ({ title, description, img, link }) => {
       onMouseEnter={() => setFocus(true)}
       onMouseLeave={() => setFocus(false)}
       className="md:m-4 m-2 ml-4 flex flex-col md:w-64 md:h-40 w-80 h-18 rounded-md overflow-hidden hover:scale-[1.1] hover:duration-700
-        bg-cover  items-center justify-center"
+        bg-cover items-center justify-center shadow-lg shadow-slate-400 dark:shadow-none"
         style={{
             backgroundImage: `url(${img})`
         }}

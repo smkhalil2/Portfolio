@@ -9,8 +9,8 @@ const SkillBadge = ({ name, logo, color }) => {
   const [isFocused, setFocus] = useState(false);
   return (
     <div
-      className={`badge flex text-[#574ecc] hover:text-[#0f0f0f] dark:text-[#ededf0] md:w-auto w-36 h-fit px-4 py-2 m-2 rounded-full 
-            hover:cursor-default  items-center justify-center`}
+      className={`flex text-[#574ecc] hover:text-[#0f0f0f] dark:text-[#ededf0] md:w-auto w-36 h-fit px-4 py-2 m-2 rounded-full 
+            hover:cursor-default  items-center justify-center shadow-lg shadow-slate-300 dark:shadow-none`}
       onMouseEnter={() => setFocus(true)}
       onMouseLeave={() => setFocus(false)}
       style={{ 
