@@ -25,7 +25,7 @@ const About = () => {
                 <br/>
                 <p>
                 As an artist I perform music and sketch cartoons and portraits. I&#39;m learning to animate in 
-                Blender with Grease Pencil. To support my love of TV and movies I took animation, sreenwriting, filmmaking, 
+                Blender with Grease Pencil. To support my love of TV and movies I took animation, screenwriting, filmmaking, 
                 and stage acting electives at UMD. In my free time I enjoy kayaking, playing D&D and video games, and traveling.
                 </p>
                 </RoughNotationGroup>

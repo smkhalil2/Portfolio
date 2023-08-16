@@ -9,9 +9,9 @@ const Contact = () => {
 //   const [message, updateMessage, resetMessage] = useInputState("");
 
   return (
-    <div id="contact" className='p-16'>
-      <h1 className="text-3xl font-extrabold ml-16">Contact</h1>
-      <div className="flex md:flex-row flex-col m-4 ml-16">
+    <div id="contact" className='lg:p-16 p-4'>
+      <h1 className="text-3xl font-extrabold ml-4">Contact</h1>
+      <div className="flex md:flex-row flex-col m-5">
         <div className="flex flex-col mb-8">
           <p>
             Shadi Khalil <br /> Washington DC Metro Area <br />

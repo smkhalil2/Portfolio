@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
     </div>
       {/* Skill Badges */}
-      <div className="mt-4 px-8">
+      <div className="mt-4 p-8">
       <Skills />
       </div>
     </div>

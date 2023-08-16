@@ -8,7 +8,7 @@ const Layout = ({children}) =>{
         // removed items-center so bar would take up whole screen
         <div className={`flex w-full bg-[#0F0F0F] min-h-screen flex-col justify-between ${inter.className}`}>
             <Navbar /> 
-            <main className='relative'>{children}</main>
+            <main className='relative justify-center'>{children}</main>
             <Footer />
         </div>
     )
