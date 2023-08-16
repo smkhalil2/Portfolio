@@ -1,3 +1,5 @@
+// adapted from tutorial at https://siddsarkar.medium.com/add-a-dark-theme-toggle-to-your-next-js-and-tailwind-app-using-reacts-context-api-67042d2666d2
+
 import React, { createContext, useEffect, useState } from 'react'; 
 const defaultState = {
     dark: false, 

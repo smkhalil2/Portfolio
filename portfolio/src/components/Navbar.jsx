@@ -22,13 +22,13 @@ const Navbar = () => {
   return (
     // Navbar -tmp highlight with red border
     // <nav className='bg-[#0F0F0F]'>
-    <nav className="sticky top-0 z-50 #FFFFFF bg-[#F0F0F0] dark:bg-[#1E1E1E] shadow-md shadow-black">
+    <nav className="sticky top-0 z-50 #FFFFFF bg-[#E1E4F0] dark:bg-[#1E1E1E] shadow-md shadow-slate-800 dark:shadow-black">
       <div className="max-w-6xl m-2 md:mx-auto mx-4 ">
         <div className="flex justify-between items-center">
           <div className="flex space-x-4">
             {/* logo */}
             <div
-              className="text-3xl h-20 w-40 font-extrabold px-2 text-[#574ecc] dark:text-[#ededf0]"
+              className="text-3xl h-20 w-40 font-black px-2 text-[#574ecc] dark:text-[#ededf0]"
               style={{ fontFamily: "Major Mono Display" }}
             >
               <Link href="/">shadi khalil</Link>
@@ -36,13 +36,13 @@ const Navbar = () => {
             {/* primary nav links */}
             <div className="hidden md:flex flex-row space-x-8 items-center">
               <Link
-                className="text-[#574ecc] dark:text-[#ededf0] hover:text-[#574ecc80] hover:duration-300"
+                className="text-[#574ecc] hover:text-[#574ecc80] hover:duration-300 dark:text-[#ededf0] dark:hover:text-[#90fcef] dark:hover:duration-300"
                 href="/about"
               >
                 About
               </Link>
               <Link
-                className="text-[#574ecc] dark:text-[#ededf0] hover:text-[#574ecc80] hover:duration-300"
+                className="text-[#574ecc] hover:text-[#574ecc80] hover:duration-300 dark:text-[#ededf0] dark:hover:text-[#90fcef] dark:hover:duration-300"
                 href="/#projects"
               >
                 Projects
@@ -54,7 +54,7 @@ const Navbar = () => {
                 Timeline
               </Link> */}
               <Link
-                className="text-[#574ecc] dark:text-[#ededf0] hover:text-[#574ecc80] hover:duration-300"
+                className="text-[#574ecc] hover:text-[#574ecc80] hover:duration-300 dark:text-[#ededf0] dark:hover:text-[#90fcef] dark:hover:duration-300"
                 href="/#contact"
               >
                 Contact
