@@ -1,9 +1,14 @@
 const Footer = () => {
   return (
     <>
-      <hr style={{ border: "1px solid #4F42EA" }} />
-      <div className="flex justify-between items-center p-8 text-[#574ecc] dark:text-[#f0f0f0]">
-        <p className="md:ml-16 ml-8">© {new Date().getFullYear()} Shadi&#39;s Portfolio</p>
+      <hr style={{ border: "2px solid #293178" }} />
+      <div id="contact" className="flex justify-between items-center p-8 text-[#000000] dark:text-[#f0f0f0]">
+        <p className="md:ml-16 ml-8">
+          Shadi Khalil <br />
+          Washington DC Metro Area <br />
+          smkhalil.311@gmail.com <br />© {new Date().getFullYear()} Shadi
+          Khalil&#39;s Portfolio
+        </p>
         <div className="flex flex-row justify-between">
           <a
             href="https://github.com/smkhalil2"

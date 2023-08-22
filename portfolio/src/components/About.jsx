@@ -5,7 +5,7 @@ const About = () => {
   const durationScaler = 50;
 
   return (
-    <div id='about' className="lg:px-16 lg:py-8 p-4 dark:bg-[#0F0F0F] text-[#574ecc] dark:text-[#F0F0F0]">
+    <div id='about' className="lg:px-16 lg:py-8 p-4 dark:bg-[#0F0F0F] text-[#000000] dark:text-[#F0F0F0]">
     {/* <div className='px-16'> */}
       {/* About text and image slide show */}
       <h1 className='mt-8 ml-8 text-3xl font-bold'>About </h1>
@@ -15,7 +15,7 @@ const About = () => {
                 <p>
                 I am a skilled <Highlight type='underline' color='#90fcef' durationScaler={durationScaler}>web designer</Highlight> and <Highlight type='underline' color='#90fcef' durationScaler={durationScaler}>software developer</Highlight> with 
                 3 years experience as an IT Systems Specialist. I
-                excell at applying my creativity towards designing and building engaging user interfaces that enhance the user experience.
+                excel at applying my creativity towards designing and building engaging user interfaces that enhance the user experience.
                 I studied at the <Highlight type='box' color='#e84848' iterations={2} durationScaler={durationScaler}>University of Maryland, College Park </Highlight>
                 where I received my bachelor&#39;s degree in <Highlight type='box' color='#fff654' iterations={2} durationScaler={durationScaler}>Computer Science</Highlight> in 2022. I took courses
                 in human centered <Highlight type='underline' color='#90fcef' durationScaler={durationScaler}>UI/UX design</Highlight>, <Highlight type='underline' color='#90fcef' durationScaler={durationScaler}>game development</Highlight>, 

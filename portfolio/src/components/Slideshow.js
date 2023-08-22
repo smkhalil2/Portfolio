@@ -44,7 +44,7 @@ export default function Slideshow() {
              style={{backgroundImage: `url(${slideImages[index].src})`}}
             >
             </div>
-            <div className='flex justify-center m-4 text-[#574ecc] dark:text-[#90fcef]'>
+            <div className='flex justify-center m-4 text-[#000000] dark:text-[#f5f5f5]'>
             <p>{slideImages[index].caption}</p>
             </div>
           </div>

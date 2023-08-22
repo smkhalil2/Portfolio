@@ -13,6 +13,9 @@ module.exports = {
       //   'gradient-conic':
       //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       // },
+      fontFamily: {
+        'josefin-sans': ['Josefin Sans', 'sans-serif'],
+      },
       colors: {
         'java-red': '#66D3FA', 
         'javascript-yellow': '#68A063',

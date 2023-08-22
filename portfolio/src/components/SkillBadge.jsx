@@ -2,33 +2,34 @@ import { useState, useContext } from "react";
 import ThemeContext from "@/theme/ThemeContext";
 import Image from "next/image";
 
-const SkillBadge = ({ name, logo, color }) => {
+const SkillBadge = ({ name, logo, color, img_classes }) => {
   const { dark } = useContext(ThemeContext);
   // console.log(color)
 
   const [isFocused, setFocus] = useState(false);
   return (
     <div
-      className={`flex text-[#574ecc] hover:text-[#0f0f0f] dark:text-[#ededf0] md:w-auto w-36 h-fit px-4 py-2 m-2 rounded-full 
-            hover:cursor-default  items-center justify-center shadow-lg shadow-slate-300 dark:shadow-none`}
+      className={`flex text-[#000000] md:w-auto w-auto h-auto p-3 lg:m-4 m-2 rounded-full 
+            hover:cursor-default  items-center justify-center shadow-inner shadow-gray-800 dark:shadow-black`}
       onMouseEnter={() => setFocus(true)}
       onMouseLeave={() => setFocus(false)}
       style={{ 
-        border: isFocused ? `solid ${dark ? '#e1e4f0' : 'transparent'}` : `solid ${dark ? '#e1e4f0' : '#574ecc'}`,
-              boxShadow: isFocused ? `${dark ? `0px 0px 12px ${color}` : ``}`: '',
-              backgroundColor: isFocused ? `${dark ? '': `${color}` }`: ''
+      //   border: isFocused ? `solid ${dark ? '#e1e4f0' : 'transparent'}` : `solid ${dark ? '#e1e4f0' : '#000000'}`,
+      //         boxShadow: isFocused ? `${dark ? `0px 0px 12px ${color}` : ``}`: '',
+              backgroundColor:  `${color}` 
                }}
     >
-      <div className="mr-2">{name}</div>
+      {/* <div className="mr-2">{name}</div> */}
       {/* Specific styling for HTML or logo is bigger than CSS and looks weird */}
       <Image
         priority
-        width={800} 
-        height={800}
-        className={`w-6 h-6 ${name === "HTML" && "w-[19px] h-[19px]"}`}
+        width={1000} 
+        height={1000}
+        // className={`w-8 h-8`}
+        className={`w-6 h-6 ${img_classes}`}
         alt={`${name}-icon`}
         src={logo}
-        style={{filter: isFocused && !dark ? 'invert(0%) sepia(57%) saturate(1893%) hue-rotate(23deg) brightness(86%) contrast(88%)' : `${dark ? 'invert(90%) sepia(5%) saturate(157%) hue-rotate(314deg) brightness(190%) contrast(92%)' : 'invert(35%) sepia(19%) saturate(6191%) hue-rotate(229deg) brightness(82%) contrast(94%)'}`}}
+        style={{filter: 'invert(90%) sepia(5%) saturate(157%) hue-rotate(314deg) brightness(190%) contrast(92%)'}}
       />
     </div>
   );
