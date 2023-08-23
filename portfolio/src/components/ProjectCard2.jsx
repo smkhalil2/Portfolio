@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { InView } from "react-intersection-observer";
+import { useState } from "react";
+import ProjectDescription from "./ProjectDescription";
 
 const learnMoreIcon = (
   <svg
@@ -39,8 +41,17 @@ const ProjectCard = ({
   //     rootMargin: "0px",
   //     threshold: 1.0,
   //   });
+
+  const [overlayIsOpen, toggleOverlay] = useState(false); 
+
+  const showOverlay = () => {
+
+    toggleOverlay(!overlayIsOpen); 
+
+  }
  
   return (
+    <div className='flex w-[100%]'>
     <InView className="flex justify-center w-[100%]" threshold={0}>
         {({inView, ref, entry}) =>(
       <div ref={ref} className={`flex lg:w-[70%] w-[100%] h-80 justify-center rounded-lg m-12
@@ -63,6 +74,7 @@ const ProjectCard = ({
             py-1 w-32
             bg-[#000000] text-[#F5F5F5] 
             hover:opacity-60"
+                // onClick={showOverlay}
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -84,6 +96,8 @@ const ProjectCard = ({
       </div>
       )}
     </InView>
+    {overlayIsOpen && (<ProjectDescription />)}
+    </div>
   );
 };
 
