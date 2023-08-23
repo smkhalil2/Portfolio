@@ -51,7 +51,7 @@ const ProjectCard = ({
   }
  
   return (
-    <div className='flex w-[100%]'>
+    <div className='flex w-[100%] justify-center'>
     <InView className="flex justify-center w-[100%]" threshold={0}>
         {({inView, ref, entry}) =>(
       <div ref={ref} className={`flex lg:w-[70%] w-[100%] h-80 justify-center rounded-lg m-12
