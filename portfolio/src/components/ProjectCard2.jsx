@@ -59,7 +59,7 @@ const ProjectCard = ({
     ${inView ? 'motion-safe:animate-fadeIn' :''}`} >
         <div className="flex bg-[#F5F5F5] m-4 w-[95%] items-center">
           {/* Text and button */}
-          <div className="text-black p-8 w-[70%] relative inset-0 z-20">
+          <div className="text-black p-8 w-[60%] relative inset-0 z-20">
             {/* Title */}
             <h1 className="font-extrabold sm:text-3xl  text-2xl whitespace-nowrap">
               {title}
@@ -86,7 +86,7 @@ const ProjectCard = ({
           </div>
           {/* Image */}
           <Image
-            className={`${img_classes} w-auto`}
+            className={`${img_classes} w-[40%]`}
             src={img}
             width={1200}
             height={1200}
