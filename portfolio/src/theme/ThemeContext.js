@@ -2,7 +2,7 @@
 
 import React, { createContext, useEffect, useState } from 'react'; 
 const defaultState = {
-    dark: true, 
+    dark: false, 
     toggleDark: () => {},
 };
 
