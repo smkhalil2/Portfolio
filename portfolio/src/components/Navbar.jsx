@@ -211,18 +211,21 @@ const Navbar = () => {
           <Link
             className="block py-2 px-4 text-sm text-[#000000] dark:text-[#ededf0] hover:bg-[#293178] hover:text-[#ededf0] hover:duration-300 hover:scale-[1.05]"
             href="/about"
+            onClick={handleToggleMenu}
           >
             About
           </Link>
           <Link
             className="block py-2 px-4 text-sm text-[#000000] dark:text-[#ededf0] hover:bg-[#293178] hover:text-[#ededf0] hover:duration-300 hover:scale-[1.05]"
             href="/#projects"
+            onClick={handleToggleMenu}
           >
             Projects
           </Link>
           <Link
             className="block py-2 px-4 text-sm text-[#000000] dark:text-[#ededf0] hover:bg-[#293178] hover:text-[#ededf0] hover:duration-300 hover:scale-[1.05]"
             href="/#contact"
+            onClick={handleToggleMenu}
           >
             Contact
           </Link>
@@ -231,6 +234,7 @@ const Navbar = () => {
             target="_blank"
             href={resumeUrl}
             rel="noopener noreferrer"
+            onClick={handleToggleMenu}
           >
             Resume
           </Link>
