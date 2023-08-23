@@ -32,7 +32,7 @@ export const projectData = [
         id: 1,
         title: "LilyHoney",
         description: "eCommerce Site UI (In Progress)",
-        gitHubLink: 'https://www.figma.com/file/q9tbUjKEpxhwjOu3cShHQu/LilyHoney-eCom-V1?type=design&node-id=101%3A22&mode=design&t=rePnqbldSv5dgEkT-1',
+        gitHubLink: 'https://www.figma.com/file/q9tbUjKEpxhwjOu3cShHQu/LilyHoney-eCom-V1?type=design&node-id=314%3A25&mode=design&t=Uxfkwrg3CGxmY4QR-1',
         img: '/images/projects/sketches/Bee.png',
         img_classes: 'relative md:right-8 scale-[120%]',
         slides: '/images/projects/Bee.png'
