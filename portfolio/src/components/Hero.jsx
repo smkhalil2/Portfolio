@@ -60,7 +60,7 @@ const Hero = ({ darkMode }) => {
         </div>
 
         <Image
-          className="md:flex md:w-[20%] hidden"
+          className="md:flex md:w-[16%] hidden"
           width={1200}
           height={1200}
           src="/images/profile-pic.png"
