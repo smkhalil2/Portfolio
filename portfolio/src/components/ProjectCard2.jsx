@@ -50,11 +50,11 @@ const ProjectCard = ({
           {/* Text and button */}
           <div className="text-black p-8 w-[70%] relative inset-0 z-20">
             {/* Title */}
-            <h1 className="font-extrabold text-3xl whitespace-nowrap">
+            <h1 className="font-extrabold sm:text-3xl  text-2xl whitespace-nowrap">
               {title}
             </h1>
             {/* Description */}
-            <div className="flex flex-col text-xl w-auto text-[#000000] leading-relaxed">
+            <div className="flex flex-col sm:text-xl text-lg w-auto text-[#000000] leading-relaxed">
               {description}
 
               {/* Button */}

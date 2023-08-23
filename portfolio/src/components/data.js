@@ -7,7 +7,7 @@ export const projectData = [
         description: "A video game built in Unity/C# and Blender",
         gitHubLink: 'https://youtube.com/playlist?list=PLAHaOiMUCZRZ5IENSC4CZq7RQ3OEoxvvN',
         img: '/images/projects/sketches/Spaceman4.png',
-        img_classes: 'scale-110',
+        img_classes: 'lg:scale-110 relative right-24 sm:right-0 scale-[70%]',
         slides: '/images/projects/spacevampire.png'
     },
     {
@@ -16,7 +16,7 @@ export const projectData = [
         description: "Android Fitness App",
         gitHubLink: 'https://youtu.be/U42hCzOBTfI',
         img: '/images/projects/sketches/healthify.png',
-        img_classes: 'scale-95',
+        img_classes: 'lg:scale-95 relative scale-[70%]',
         slides: '/images/projects/healthify.png'
     }, 
     {
@@ -25,7 +25,7 @@ export const projectData = [
         description: "Bioinformatics project in Java and Python ",
         gitHubLink: 'https://github.com/smkhalil2/Toy-Genome-Assembler',
         img: '/images/projects/sketches/bioinformatics1.png',
-        img_classes: 'relative lg:scale-[85%] scale-75 mb-8 -left-64 z-8 lg:-left-16',
+        img_classes: 'relative lg:scale-[85%] scale-[65%] mb-8 -left-64 z-8 lg:-left-16',
         slides: '/images/projects/genomeAssembler2.png'
     },
     {
@@ -34,7 +34,7 @@ export const projectData = [
         description: "eCommerce Site UI (In Progress)",
         gitHubLink: 'https://www.figma.com/file/q9tbUjKEpxhwjOu3cShHQu/LilyHoney-eCom-V1?type=design&node-id=101%3A22&mode=design&t=rePnqbldSv5dgEkT-1',
         img: '/images/projects/sketches/Bee.png',
-        img_classes: 'relative lg:scale-110 lg:left-10 left-8',
+        img_classes: 'relative lg:scale-110 lg:left-10 -left-20 scale-75',
         slides: '/images/projects/Bee.png'
     },
     {
@@ -43,7 +43,7 @@ export const projectData = [
         description: "ReactJS App (In Progress)",
         gitHubLink: 'https://github.com/smkhalil2/Color-Palette-Project',
         img: '/images/projects/sketches/paintbucket.png',
-        img_classes: 'scale-[130%] lg:scale-[150%] mt-5 lg:ml-12',
+        img_classes: 'relative md:scale-[130%] lg:scale-[150%] mt-10 lg:ml-12 right-4 md:right-0',
         slides: '/images/projects/colorpalette.png'
     },
     {
@@ -52,7 +52,7 @@ export const projectData = [
         description: "ReactJS App using NextJS and TailwindCSS",
         gitHubLink: 'https://github.com/smkhalil2?tab=repositories',
         img: '/images/projects/sketches/bird2.png',
-        img_classes: 'relative lg:left-32 lg:scale-[90%] -left-10 scale-75',
+        img_classes: 'relative lg:left-32 lg:scale-[90%] md:-left-10 -left-32 md:scale-75 scale-50',
         slides: '/images/projects/portfolio.png'
     },
     

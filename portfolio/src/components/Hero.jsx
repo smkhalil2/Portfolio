@@ -28,12 +28,12 @@ const learnMoreIcon = (
 );
 
 const Hero = ({ darkMode }) => {
-  const [isFocused, setFocus] = useState(false);
+  // const [isFocused, setFocus] = useState(false);
   return (
     <div className="flex flex-col">
       <div className="flex flex-row items-center justify-evenly h-96 bg-[url('/images/BackgroundDots.png')] dark:bg-[url('/images/darkBackgroundDots.png')] lg:bg-contain bg-cover">
         {/* <div className="flex lg:flex-row flex-col items-center"> */}
-        <div className="flex flex-col lg:px-2 px-8 lg:mt-0 mt-8 w-auto">
+        <div className="flex flex-col lg:px-2 px-8 lg:mt-0 w-auto">
           <h2 className="font-semibold text-4xl text-[#000000] dark:text-[#F5F5F5]">
             Hi, I&#39;m Shadi!
           </h2>
@@ -60,7 +60,7 @@ const Hero = ({ darkMode }) => {
         </div>
 
         <Image
-          className="flex lg:w-[20%] w-[30%]"
+          className="md:flex md:w-[20%] hidden"
           width={1200}
           height={1200}
           src="/images/profile-pic.png"
