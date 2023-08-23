@@ -25,8 +25,20 @@ module.exports = {
         'css-blue': '#2565AE',
         'node-green': "#68A063",
         'figma-green': "#00d47b"
-      }
+      },
+      animation: {
+        fadeIn: "fadeIn 700ms ease-in forwards"
+      },
+      keyframes: {
+        fadeIn: {
+          "0%" : {opacity: 0},
+          "100%": {opacity: 1}
+        },
+      },
     },
+  },
+  variants: {
+    animation: ["motion-safe"]
   },
   plugins: [],
   // safelist: {

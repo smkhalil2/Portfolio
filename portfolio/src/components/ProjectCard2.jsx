@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { InView } from "react-intersection-observer";
 
 const learnMoreIcon = (
   <svg
@@ -25,37 +26,64 @@ const learnMoreIcon = (
   </svg>
 );
 
-const ProjectCard = ({title, description, img, img_classes, slides, link}) => {
+const ProjectCard = ({
+  title,
+  description,
+  img,
+  img_classes,
+  slides,
+  link,
+}) => {
+  //   const [containerRef, isVisible] = useElementOnScreen({
+  //     root: null,
+  //     rootMargin: "0px",
+  //     threshold: 1.0,
+  //   });
+ 
   return (
-    <div className="flex bg-gradient-to-br from-[#29317875] to-[#00000050] dark:from-[#293178] dark:to-[#F5F5F580] lg:w-[70%] w-[100%] h-80 justify-center rounded-lg m-12">
-      <div className="flex bg-[#F5F5F5] m-4 w-[95%] items-center">
-        {/* Text and button */}
-        <div className="text-black p-8 w-[70%] relative inset-0 z-20">
-          {/* Title */}
-          <h1 className="font-extrabold text-3xl whitespace-nowrap">{title}</h1>
-          {/* Description */}
-          <div className="flex flex-col text-xl w-auto text-[#000000] leading-relaxed">
-            {description}
-         
-          {/* Button */}
-          <Link className='flex items-center text-lg rounded-lg
-              px-3 py-1 w-32
-              bg-[#000000] text-[#F5F5F5] 
-              hover:opacity-60' 
-              href={link} target="_blank"
-              rel="noopener noreferrer"> 
-                Explore 
-            {learnMoreIcon}
-          </Link> 
-          </div>
-        </div>
-        {/* Image */}
-        <Image className={`${img_classes} w-auto`} src={img} width={1200} height={1200}/>
-      </div>
-      {/* Details Overlay */}
-    </div>
+    <InView className="flex justify-center w-[100%]" threshold={0}>
+        {({inView, ref, entry}) =>(
+      <div ref={ref} className={`flex lg:w-[70%] w-[100%] h-80 justify-center rounded-lg m-12
+    bg-gradient-to-br from-[#29317875] to-[#00000050] dark:from-[#293178] dark:to-[#F5F5F580]
+    ${inView ? 'motion-safe:animate-fadeIn' :''}`} >
+        <div className="flex bg-[#F5F5F5] m-4 w-[95%] items-center">
+          {/* Text and button */}
+          <div className="text-black p-8 w-[70%] relative inset-0 z-20">
+            {/* Title */}
+            <h1 className="font-extrabold text-3xl whitespace-nowrap">
+              {title}
+            </h1>
+            {/* Description */}
+            <div className="flex flex-col text-xl w-auto text-[#000000] leading-relaxed">
+              {description}
 
-    
+              {/* Button */}
+              <Link
+                className="flex items-center text-lg rounded-lg
+            py-1 w-32
+            bg-[#000000] text-[#F5F5F5] 
+            hover:opacity-60"
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {learnMoreIcon}
+                Explore
+              </Link>
+            </div>
+          </div>
+          {/* Image */}
+          <Image
+            className={`${img_classes} w-auto`}
+            src={img}
+            width={1200}
+            height={1200}
+          />
+        </div>
+        {/* Details Overlay */}
+      </div>
+      )}
+    </InView>
   );
 };
 

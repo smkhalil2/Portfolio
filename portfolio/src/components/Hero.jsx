@@ -43,7 +43,7 @@ const Hero = ({ darkMode }) => {
             <div className="flex flex-row whitespace-nowrap">
               Washington, DC.
               <Link
-                className="flex px-2 py-4 h-8 w-auto text-xl rounded-lg
+                className="flex pr-4 py-4 h-8 w-auto text-xl rounded-lg
               items-center whitespace-nowrap ml-2
               border-2 border-transparent
               bg-[#000000] text-[#F5F5F5] 
@@ -51,8 +51,9 @@ const Hero = ({ darkMode }) => {
               hover:opacity-60 hover:duration-300"
                 href="/about"
               >
-                Learn More
                 {learnMoreIcon}
+                Learn More
+                
               </Link>
             </div>
           </div>

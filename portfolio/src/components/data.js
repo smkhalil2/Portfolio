@@ -16,7 +16,7 @@ export const projectData = [
         description: "Android Fitness App",
         gitHubLink: 'https://youtu.be/U42hCzOBTfI',
         img: '/images/projects/sketches/healthify.png',
-        img_classes: 'scale-100',
+        img_classes: 'scale-95',
         slides: '/images/projects/healthify.png'
     }, 
     {

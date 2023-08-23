@@ -38,13 +38,13 @@ const Navbar = () => {
             {/* primary nav links */}
             <div className="hidden md:flex flex-row items-end z-10">
               <Link
-                className="pt-12 pb-2  px-4 text-md text-[#000000] hover:bg-[#D9D9D9] hover:duration-300 dark:text-[#ededf0] dark:hover:bg-[#D9D9D950] dark:hover:text-[#d9d9d9] dark:hover:duration-300"
+                className="pt-12 pb-2  px-4 text-md text-[#000000] hover:bg-[#29317830] hover:duration-300 dark:text-[#ededf0] dark:hover:bg-[#29317895] dark:hover:text-[#d9d9d9] dark:hover:duration-300"
                 href="/about"
               >
                 About
               </Link>
               <Link
-                className="pt-12 pb-2  px-4 text-md text-[#000000] hover:bg-[#D9D9D9] hover:duration-300 dark:text-[#ededf0] dark:hover:bg-[#D9D9D950] dark:hover:text-[#d9d9d9] dark:hover:duration-300"
+                className="pt-12 pb-2  px-4 text-md text-[#000000] hover:bg-[#29317830] hover:duration-300 dark:text-[#ededf0] dark:hover:bg-[#29317895] dark:hover:text-[#d9d9d9] dark:hover:duration-300"
                 href="/#projects"
               >
                 Projects
@@ -56,7 +56,7 @@ const Navbar = () => {
                 Timeline
               </Link> */}
               <Link
-                className="pt-12 pb-2  px-4 text-md text-[#000000] hover:bg-[#D9D9D9] hover:duration-300 dark:text-[#ededf0] dark:hover:bg-[#D9D9D950] dark:hover:text-[#d9d9d9] dark:hover:duration-300"
+                className="pt-12 pb-2  px-4 text-md text-[#000000] hover:bg-[#29317830] hover:duration-300 dark:text-[#ededf0] dark:hover:bg-[#29317895] dark:hover:text-[#d9d9d9] dark:hover:duration-300"
                 href="/#contact"
               >
                 Contact
