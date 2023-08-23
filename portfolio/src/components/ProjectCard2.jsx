@@ -61,7 +61,7 @@ const ProjectCard = ({
           {/* Text and button */}
           <div className="text-black p-8 w-[60%] relative inset-0 z-20">
             {/* Title */}
-            <h1 className="font-extrabold sm:text-3xl  text-2xl whitespace-nowrap">
+            <h1 className="font-extrabold sm:text-3xl  text-2xl md:whitespace-nowrap">
               {title}
             </h1>
             {/* Description */}
