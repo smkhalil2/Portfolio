@@ -7,7 +7,7 @@ export const projectData = [
         description: "A video game built in Unity/C# and Blender",
         gitHubLink: 'https://youtube.com/playlist?list=PLAHaOiMUCZRZ5IENSC4CZq7RQ3OEoxvvN',
         img: '/images/projects/sketches/Spaceman4.png',
-        img_classes: '',
+        img_classes: 'scale-[80%]',
         slides: '/images/projects/spacevampire.png'
     },
     {
@@ -16,7 +16,7 @@ export const projectData = [
         description: "Android Fitness App",
         gitHubLink: 'https://youtu.be/U42hCzOBTfI',
         img: '/images/projects/sketches/healthify.png',
-        img_classes: 'scale-90',
+        img_classes: 'scale-75',
         slides: '/images/projects/healthify.png'
     }, 
     {
@@ -25,7 +25,7 @@ export const projectData = [
         description: "Bioinformatics Algorithms Project",
         gitHubLink: 'https://github.com/smkhalil2/Toy-Genome-Assembler',
         img: '/images/projects/sketches/bioinformatics1.png',
-        img_classes: 'relative md:right-16 scale-[150%]',
+        img_classes: 'relative md:right-16 scale-[120%]',
         slides: '/images/projects/genomeAssembler2.png'
     },
     {
@@ -34,7 +34,7 @@ export const projectData = [
         description: "eCommerce Site UI (In Progress)",
         gitHubLink: 'https://www.figma.com/file/q9tbUjKEpxhwjOu3cShHQu/LilyHoney-eCom-V1?type=design&node-id=101%3A22&mode=design&t=rePnqbldSv5dgEkT-1',
         img: '/images/projects/sketches/Bee.png',
-        img_classes: 'relative md:right-8 scale-[130%]',
+        img_classes: 'relative md:right-8 scale-[120%]',
         slides: '/images/projects/Bee.png'
     },
     {
@@ -43,7 +43,7 @@ export const projectData = [
         description: "ReactJS App (In Progress)",
         gitHubLink: 'https://github.com/smkhalil2/Color-Palette-Project',
         img: '/images/projects/sketches/paintbucket.png',
-        img_classes: 'relative md:left-12 left-8 scale-75',
+        img_classes: 'relative md:left-12 left-8 scale-[65%]',
         slides: '/images/projects/colorpalette.png'
     },
     {
