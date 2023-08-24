@@ -109,7 +109,7 @@ export const skills = [
 export const slideImages = [
     {
         src: '/images/slideshow/gradphoto.jpg',
-        caption: 'With family in front of McKeldin Library, 2022',
+        caption: 'With Jim Henson and Kermit statue at UMD, 2022',
         index: 0
     },
     {
