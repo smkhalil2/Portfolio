@@ -56,7 +56,7 @@ const ProjectCard = ({
         {({ inView, ref, entry }) => (
           <div
             ref={ref}
-            className="group h-[400px] lg:w-[850px] w-[400px]  [perspective:1000px]"
+            className="group h-[400px] lg:w-[850px] w-[350px]  [perspective:1000px]"
           >
             <div className="relative h-full w-full rounded-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]">
               <div className="absolute inset-0">
