@@ -74,7 +74,7 @@ const ProjectDescription = ({
             {/* Button */}
             <Link
               className="flex items-center text-lg rounded-xl h-fit
-                py-1 w-28 text-slate-100 bg-slate-700  hover:bg-slate-800
+                py-1 w-28 text-black bg-white  hover:bg-[#ffffff90]
                 hover:opacity-60"
               // onClick={showOverlay}
               href={link}

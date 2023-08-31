@@ -64,7 +64,7 @@ export const projectData = [
     {
         id: 6,
         title: "This Website!",
-        description: "This website is a ReactJS app. I used Next.js to take advantage of server-side rendering to decrease load times. Next.js also allowed me to implement routing more easily. I styled the site using TailwindCSS which has reduced the number of files I am responsible for and allows me to make changes to components quickly. I am also able to easily implement responsiveness and interactivity like styling hover effects. \n\n I modeled the design of this app after the TARDIS from the original run of Doctor Who on BBC in the 1960s. I drew the illustrations you see in Autodesk Sketchbook. Iwanted this site to expresses my skill, creativity, and nerdiness!",
+        description: "This website is a ReactJS app. I used Next.js to take advantage of server-side rendering to decrease load times. Next.js also allowed me to implement routing more easily. I styled the site using TailwindCSS which has reduced the number of files I am responsible for and allows me to make changes to components quickly. I am also able to easily implement responsiveness and interactivity like styling hover effects. \n\n I modeled the design of this app after the TARDIS from the original run of Doctor Who on BBC in the 1960s. I drew the illustrations you see in Autodesk Sketchbook. I wanted this site to expresses my skill, creativity, and nerdiness!",
         category: "React App",
         gitHubLink: 'https://github.com/smkhalil2?tab=repositories',
         img: '/images/projects/sketches/bird2.png',
