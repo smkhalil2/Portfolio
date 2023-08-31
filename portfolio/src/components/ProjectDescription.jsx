@@ -47,7 +47,7 @@ const ProjectDescription = ({
             <h1 className="font-bold text-lg">Skills</h1>
             <div className="flex flex-wrap">
               {skills.map((skill) => (
-                <div className="flex m-1 text-xs text-slate-100 bg-slate-700 px-2 p-1 w-fit rounded-md items-center hover:bg-slate-800">
+                <div key={skill} className="flex m-1 text-xs text-slate-100 bg-slate-700 px-2 p-1 w-fit rounded-md items-center hover:bg-slate-800">
                   {skill}
                 </div>
               ))}
@@ -56,7 +56,7 @@ const ProjectDescription = ({
             <h1 className="font-bold text-lg">Technologies</h1>
             <div className="flex flex-wrap">
               {tech.map((skill) => (
-                <div className="flex m-1 text-xs text-slate-100 bg-slate-700 px-2 p-1 w-fit rounded-md items-center hover:bg-slate-800">
+                <div key={skill} className="flex m-1 text-xs text-slate-100 bg-slate-700 px-2 p-1 w-fit rounded-md items-center hover:bg-slate-800">
                   {skill}
                 </div>
               ))}
@@ -67,7 +67,7 @@ const ProjectDescription = ({
           <div className="flex flex-col lg:w-[75%] w-full items-center lg:overflow-y-scroll p-4">
             {/* <div className="flex text-white scale-70  h-[50%] " > */}
               {/* <Slideshow slideImages={slides} /> */}
-              <Image className='scale-75' width={1200} height={1200} src={slides[0].src} />
+              <Image alt={`${title} Image`} className='scale-75' width={1200} height={1200} src={slides[0].src} />
             {/* </div> */}
             <div className='whitespace-pre-line flex text-left'>{description}</div>
             <br/>
