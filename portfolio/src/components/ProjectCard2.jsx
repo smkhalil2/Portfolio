@@ -31,9 +31,12 @@ const learnMoreIcon = (
 const ProjectCard = ({
   title,
   description,
+  category,
   img,
   img_classes,
   slides,
+  skills,
+  tech,
   link,
 }) => {
   //   const [containerRef, isVisible] = useElementOnScreen({
@@ -42,61 +45,56 @@ const ProjectCard = ({
   //     threshold: 1.0,
   //   });
 
-  const [overlayIsOpen, toggleOverlay] = useState(false); 
+  const [showBack, toggleSide] = useState(false);
 
-  const showOverlay = () => {
-
-    toggleOverlay(!overlayIsOpen); 
-
-  }
- 
   return (
-    <div className='flex w-[100%] justify-center'>
-    <InView className="flex justify-center w-[100%]" threshold={0}>
-        {({inView, ref, entry}) =>(
-      <div ref={ref} className={`flex lg:w-[70%] w-[100%] h-80 justify-center rounded-lg m-12
-    bg-gradient-to-br from-[#29317875] to-[#00000050] dark:from-[#293178] dark:to-[#F5F5F580]
-    ${inView ? 'motion-safe:animate-fadeIn' :''}`} >
-        <div className="flex bg-[#F5F5F5] m-4 w-[95%] items-center">
-          {/* Text and button */}
-          <div className="text-black p-8 w-[60%] relative inset-0 z-20">
-            {/* Title */}
-            <h1 className="font-extrabold sm:text-3xl  text-2xl md:whitespace-nowrap">
-              {title}
-            </h1>
-            {/* Description */}
-            <div className="flex flex-col sm:text-xl text-lg w-auto text-[#000000] leading-relaxed">
-              {description}
-
-              {/* Button */}
-              <Link
-                className="flex items-center text-lg rounded-lg
-            py-1 w-32
-            bg-[#000000] text-[#F5F5F5] 
-            hover:opacity-60"
-                // onClick={showOverlay}
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {learnMoreIcon}
-                Explore
-              </Link>
+    <div className="flex w-[100%] p-8 justify-center">
+      {/* {" "} */}
+      {/** remove flex-col later  */}
+      {/* <ProjectDescription isOpen={true} title={title} description={description} skills={skills} tech={tech} link={link} img={img} slides={slides} onClose={toggleSide}/> */}
+      <InView className="flex justify-center w-[100%]" threshold={0}>
+        {({ inView, ref, entry }) => (
+          <div
+            ref={ref}
+            className="group h-[400px] lg:w-[850px] w-[500px] [perspective:1000px]"
+          >
+            <div className="relative h-full w-full rounded-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]">
+              <div className="absolute inset-0">
+                <div
+                  className={`flex w-full h-full justify-center rounded-xl
+                    bg-gradient-to-br from-[#29317875] to-[#00000050] dark:from-[#293178] dark:to-[#F5F5F580]
+                    ${inView ? "motion-safe:animate-fadeIn" : ""}`}
+                >
+                  <div className="flex w-full m-6 p-8 justify-between items-center bg-slate-100">
+                    <h1 className="text-slate-900 text-4xl font-bold w-1/2">
+                      {title}
+                    </h1>
+                    {/* Image */}
+                    <Image
+                      className={`lg:w-fit w-[50%]`}
+                      src={img}
+                      width={1200}
+                      height={1200}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute inset-0 h-full w-full rounded-xl bg-[#20212b]/95  text-center text-slate-200 [transform:rotateX(180deg)] [backface-visibility:hidden]">
+                <ProjectDescription
+                  title={title}
+                  category={category}
+                  description={description}
+                  skills={skills}
+                  tech={tech}
+                  link={link}
+                  img={img}
+                  slides={slides}
+                />
+              </div>
             </div>
           </div>
-          {/* Image */}
-          <Image
-            className={`${img_classes} w-[40%]`}
-            src={img}
-            width={1200}
-            height={1200}
-          />
-        </div>
-        {/* Details Overlay */}
-      </div>
-      )}
-    </InView>
-    {overlayIsOpen && (<ProjectDescription />)}
+        )}
+      </InView>
     </div>
   );
 };

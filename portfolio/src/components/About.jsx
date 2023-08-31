@@ -1,6 +1,8 @@
 import Slideshow from "./Slideshow";
 import { RoughNotationGroup } from "react-rough-notation";
 import { Highlight } from "./Highlight";
+import { slideImages } from "./data";
+
 const About = () => {
   const durationScaler = 50;
 
@@ -33,7 +35,7 @@ const About = () => {
             </div>
             {/* Image */}
             <div className="lg:scale-[0.9] scale-[0.7] w-full h-full">
-                <Slideshow />
+                <Slideshow slideImages={slideImages}/>
             </div>
         </div>
     </div>

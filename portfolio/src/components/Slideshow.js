@@ -2,11 +2,10 @@
 import ThemeContext from "@/theme/ThemeContext";
 import React, { useState, useEffect, useRef } from "react";
 import { useContext } from "react";
-import { slideImages } from "./data";
 
 const delay = 4000;
 
-export default function Slideshow() {
+export default function Slideshow({slideImages}) {
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
 
