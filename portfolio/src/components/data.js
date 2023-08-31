@@ -8,7 +8,7 @@ export const projectData = [
         category: "Video Game",
         gitHubLink: 'https://youtube.com/playlist?list=PLAHaOiMUCZRZ5IENSC4CZq7RQ3OEoxvvN',
         img: '/images/projects/sketches/Spaceman5.png',
-        img_classes: 'scale-[80%]',
+        img_classes: '',
         slides: [{src: '/images/projects/spacevampire.png', caption:'spacevampire', index:4}],
         skills: ['Game Development', 'Animation', '3D Modeling', '3D Character Rigging', 'Video Editing'], 
         tech: ['Unity','C#', 'Blender3D', 'Photoshop', 'Premiere']
@@ -20,7 +20,7 @@ export const projectData = [
         category: "Android App",
         gitHubLink: 'https://youtu.be/U42hCzOBTfI',
         img: '/images/projects/sketches/healthify4.png',
-        img_classes: 'scale-75',
+        img_classes: 'lg:scale-100 scale-75',
         slides: [{src: '/images/projects/healthify.png', caption:'healthify', index:5}],
         skills: ['UI/UX Design', 'App Development', 'Android', 'User Testing', 'Heuristic Evaluation'], 
         tech: ['Java','XML', 'Android Studio', 'CSS', 'PowerPoint']
@@ -32,7 +32,7 @@ export const projectData = [
         description: "This is a toy genome assembler which uses bioinformatic algorithms to fragment and reconstruct the genome. The project generates output files called picoindex and picomap. \n\nThe picoindex processes an input genome and produces an FM-index, which uses the Burrow-Wheeler transform to rotate the genome and generate suffixes. This allows us to determine the index of individual basepairs in the genome. The picomap takes in gene fragments and attempts to align them on the genome using the picoindex as reference in order to find the position where a particular gene starts within the genome. This is useful for geneticists who have isolated a gene, possibly in an attempt to determine its function, but now want to know where that gene can be found in the genome. The output produces a list of possible alignments, scored based on how few differences are detected between the fragment and the genome. It also generates a representative CIGAR string which uses a combination of numbers and symbols to illustrate what differences were detected.",
         gitHubLink: 'https://github.com/smkhalil2/Toy-Genome-Assembler',
         img: '/images/projects/sketches/bioinformatics3.png',
-        img_classes: 'relative md:right-16 scale-[120%]',
+        img_classes: '',
         slides: [{src: '/images/projects/genomeAssembler2.png', caption:'genome assembler', index:3}],
         skills: ['Bioinformatic Algorithms', 'Scripting'], 
         tech: ['Java', 'Python', 'C++', 'bash']
@@ -44,7 +44,7 @@ export const projectData = [
         category: "eCommerce Site UI Concept",
         gitHubLink: 'https://www.figma.com/file/q9tbUjKEpxhwjOu3cShHQu/LilyHoney-eCom-V1?type=design&node-id=314%3A25&mode=design&t=Uxfkwrg3CGxmY4QR-1',
         img: '/images/projects/sketches/bee3.png',
-        img_classes: 'relative md:right-8 scale-[120%]',
+        img_classes: '',
         slides: [{src: '/images/projects/lilyhoney4.png', caption:'lilyhoney', index:1}],
         skills: ['UI/UX Design', 'Brand Design'], 
         tech: ['Figma','Photoshop', 'AI']
@@ -56,7 +56,7 @@ export const projectData = [
         category: "React App",
         gitHubLink: 'https://github.com/smkhalil2/Color-Palette-Project',
         img: '/images/projects/sketches/paintbucket2.png',
-        img_classes: 'relative md:left-12 left-8 scale-[65%]',
+        img_classes: '',
         slides: [{src: '/images/projects/colorpalette.png', caption:'color palette maker', index:2}],
         skills: ['UI/UX Design', 'App Development', 'Input Validation'], 
         tech: ['React.js','JavaScript', 'HTML', 'CSS']
@@ -68,7 +68,7 @@ export const projectData = [
         category: "React App",
         gitHubLink: 'https://github.com/smkhalil2?tab=repositories',
         img: '/images/projects/sketches/bird2.png',
-        img_classes: 'relative md:left-16 scale-[110%]',
+        img_classes: '',
         slides: [{src:'/images/projects/portfolio.png', caption:'portfolio', index:6}],
         skills: ['UI/UX Design', 'Brand Design', 'Web Development', 'Photo Editing', 'Illustration'], 
         tech: ['React.js','Next.js', 'TailwindCSS', 'HTML', 'Figma', 'Autodesk Sketchbook', 'Photoshop']
