@@ -38,7 +38,7 @@ const ProjectDescription = ({
   return (
     <Fragment>
      
-        <div className="flex lg:flex-col-2 lg:flex-nowrap flex-wrap p-6 rounded-xl h-[400px] overflow-y-auto text-white lg:divide-x-2 lg:divide-y-0 divide-y-2 divide-slate-700 justify-evenly ">
+        <div className="flex lg:flex-col-2 lg:flex-nowrap flex-wrap p-6 rounded-xl h-[400px] overflow-y-auto text-white lg:divide-x-2 lg:divide-y-0 divide-y-2 divide-[#414252] justify-evenly ">
           {/* column one - Title, tech, skills/service */}
           <div className="flex flex-col lg:w-[30%] text-left">
             <h1 className="font-extrabold text-xl">{title}</h1>
@@ -46,8 +46,8 @@ const ProjectDescription = ({
             <br/>
                         {/* Button */}
                         <Link
-              className="flex items-center text-sm rounded-xl h-fit
-                py-1 w-24 text-black bg-white  hover:bg-[#ffffff90]
+              className="flex items-center text-sm rounded-lg h-fit
+                py-1 w-24 text-black bg-white
                 hover:opacity-60"
               href={link}
               target="_blank"
@@ -60,7 +60,7 @@ const ProjectDescription = ({
             <h1 className="font-bold text-lg">Skills</h1>
             <div className="flex flex-wrap">
               {skills.map((skill) => (
-                <div key={skill} className="flex m-1 text-xs text-slate-100 bg-slate-700 px-2 p-1 w-fit rounded-md items-center hover:bg-slate-800">
+                <div key={skill} className="flex m-1 text-xs text-slate-100 bg-[#414252] px-2 p-1 w-fit rounded-md items-center hover:bg-[#41425290]">
                   {skill}
                 </div>
               ))}
@@ -69,7 +69,7 @@ const ProjectDescription = ({
             <h1 className="font-bold text-lg">Technologies</h1>
             <div className="flex flex-wrap">
               {tech.map((skill) => (
-                <div key={skill} className="flex m-1 text-xs text-slate-100 bg-slate-700 px-2 p-1 w-fit rounded-md items-center hover:bg-slate-800">
+                <div key={skill} className="flex m-1 text-xs text-slate-100 bg-[#414252] px-2 p-1 w-fit rounded-md items-center hover:bg-[#41425290]">
                   {skill}
                 </div>
               ))}
