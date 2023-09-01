@@ -5,9 +5,9 @@ import Slideshow from "./Slideshow";
 
 const learnMoreIcon = (
   <svg
-    className="ml-2"
-    width="24"
-    height="28"
+    className="ml-3"
+    width="18"
+    height="24"
     viewBox="0 0 46 57"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,20 @@ const ProjectDescription = ({
           {/* column one - Title, tech, skills/service */}
           <div className="flex flex-col lg:w-[30%] text-left">
             <h1 className="font-extrabold text-xl">{title}</h1>
-            <h2>{category}</h2>
+            <h2>{category}</h2> 
+            <br/>
+                        {/* Button */}
+                        <Link
+              className="flex items-center text-sm rounded-xl h-fit
+                py-1 w-24 text-black bg-white  hover:bg-[#ffffff90]
+                hover:opacity-60"
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {learnMoreIcon}
+              Explore
+            </Link>
             <br/>
             <h1 className="font-bold text-lg">Skills</h1>
             <div className="flex flex-wrap">
@@ -71,19 +84,18 @@ const ProjectDescription = ({
             {/* </div> */}
             <div className='whitespace-pre-line flex text-left'>{description}</div>
             <br/>
-            {/* Button */}
+            {/* Button
             <Link
               className="flex items-center text-lg rounded-xl h-fit
                 py-1 w-28 text-black bg-white  hover:bg-[#ffffff90]
                 hover:opacity-60"
-              // onClick={showOverlay}
               href={link}
               target="_blank"
               rel="noopener noreferrer"
             >
               {learnMoreIcon}
               Explore
-            </Link>
+            </Link> */}
           </div>
         </div>
    
