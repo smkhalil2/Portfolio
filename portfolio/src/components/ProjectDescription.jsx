@@ -42,7 +42,7 @@ const ProjectDescription = ({
           {/* column one - Title, tech, skills/service */}
           <div className="flex flex-col lg:w-[30%] text-left">
             <h1 className="font-extrabold text-xl">{title}</h1>
-            <h2>{category}</h2> 
+            <h2 className='text-slate-300'>{category}</h2> 
             <br/>
                         {/* Button */}
                         <Link
@@ -82,7 +82,22 @@ const ProjectDescription = ({
               {/* <Slideshow slideImages={slides} /> */}
               <Image alt={`${title} Image`} className='scale-75' width={1200} height={1200} src={slides[0].src} />
             {/* </div> */}
-            <div className='whitespace-pre-line flex text-left'>{description}</div>
+            <div className='whitespace-pre-line grid grid-flow-row text-left'>
+                <h1 className='font-extrabold text-xl'>Background</h1>
+                <div className='text-slate-300'>
+                    {description.context}
+                </div>
+                <br/>
+                <h1 className='font-extrabold text-xl'>Contribution</h1>
+                <div className='text-slate-300'>
+                    {description.contribution}
+                </div>
+                <br/>
+                <h1 className='font-extrabold text-xl'>What I Learned</h1>
+                <div className='text-slate-300'>
+                    {description.lesson}
+                </div>
+            </div>
             <br/>
             {/* Button
             <Link
