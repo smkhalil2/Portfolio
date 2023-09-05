@@ -45,7 +45,7 @@ export const projectData = [
     category: "Android App",
     gitHubLink: "https://youtu.be/U42hCzOBTfI",
     img: "/images/projects/sketches/healthify4.png",
-    img_classes: "lg:scale-100 scale-75",
+    img_classes: "scale-75",
     slides: [
       { src: "/images/projects/healthify.png", caption: "healthify", index: 5 },
     ],
