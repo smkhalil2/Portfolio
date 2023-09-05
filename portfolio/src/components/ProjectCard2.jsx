@@ -71,7 +71,7 @@ const ProjectCard = ({
                     </h1>
                     {/* Image */}
                     <Image
-                      className={`${img_classes} lg:w-fit w-[50%] z-5`}
+                      className={`${img_classes} w-[50%] z-5`}
                       src={img}
                       width={1200}
                       height={1200}

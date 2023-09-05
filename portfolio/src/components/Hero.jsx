@@ -33,14 +33,14 @@ const Hero = ({ darkMode }) => {
     <div className="flex flex-col">
       <div className="flex flex-row items-center justify-evenly h-96 bg-[url('/images/BackgroundDots.png')] dark:bg-[url('/images/darkBackgroundDots.png')] lg:bg-contain bg-cover">
         {/* <div className="flex lg:flex-row flex-col items-center"> */}
-        <div className="flex flex-col lg:px-2 px-8 lg:mt-0 w-auto">
-          <h2 className="font-semibold text-4xl text-[#000000] dark:text-[#F5F5F5]">
+        <div  className="flex flex-col lg:px-2 px-8 lg:mt-0 w-auto">
+          <h2 id="text" className="font-semibold text-4xl text-[#000000] dark:text-[#F5F5F5]">
             Hi, I&#39;m Shadi!
           </h2>
 
-          <div className="flex flex-col text-2xl text-[#000000] dark:text-[#F5F5F5] leading-relaxed">
+          <div id="text" className="flex flex-col text-2xl text-[#000000] dark:text-[#F5F5F5] leading-relaxed">
             I&#39;m a Web Developer from
-            <div className="flex flex-row whitespace-nowrap">
+            <div id="text" className="flex flex-row whitespace-nowrap">
               Washington, DC.
               <Link
                 className="flex pr-4 py-4 h-8 w-auto text-xl rounded-lg
