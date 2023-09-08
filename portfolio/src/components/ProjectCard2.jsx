@@ -62,11 +62,12 @@ const ProjectCard = ({
               <div className="absolute inset-0">
                 <div
                   className={`flex w-full h-full justify-center rounded-xl
-                    bg-gradient-to-br from-[#29317875] to-[#00000050] dark:from-[#293178] dark:to-[#F5F5F580]
+                  bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black
+                  dark:from-gray-100 dark:via-gray-300 dark:to-gray-500
                     ${inView ? "motion-safe:animate-fadeIn" : ""}`}
                 >
-                  <div className="flex w-full m-6 p-8 justify-between items-center bg-slate-100">
-                    <h1 className="text-slate-900 text-4xl font-bold w-1/2 z-20">
+                  <div className="flex w-full m-6 p-8 justify-between items-center">
+                    <h1 className="text-slate-100 dark:text-slate-900 md:text-5xl text-2xl font-bold w-1/2 z-20">
                       {title}
                     </h1>
                     {/* Image */}

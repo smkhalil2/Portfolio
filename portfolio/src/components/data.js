@@ -13,7 +13,7 @@ export const projectData = [
     category: "Video Game",
     gitHubLink:
       "https://youtube.com/playlist?list=PLAHaOiMUCZRZ5IENSC4CZq7RQ3OEoxvvN",
-    img: "/images/projects/sketches/Spaceman5.png",
+    img: "/images/projects/sketches/Spaceman7.png",
     img_classes: "",
     slides: [
       {
@@ -44,7 +44,7 @@ export const projectData = [
     },
     category: "Android App",
     gitHubLink: "https://youtu.be/U42hCzOBTfI",
-    img: "/images/projects/sketches/healthify4.png",
+    img: "/images/projects/sketches/healthify6.png",
     img_classes: "scale-75",
     slides: [
       { src: "/images/projects/healthify.png", caption: "healthify", index: 5 },
@@ -71,7 +71,7 @@ export const projectData = [
         "This project was an excellent reminder of how hard work can pay off. I sat down for hours with these problems, reviewed the course material repeatedly, and found numerous outside resources to help me understand the complicated algorithms I had to implement. I was fueled by a love of biology and a desire to understand the material. Getting 100% on five difficult projects right at the end of my senior year gave me the confidence I needed to trust myself as a computer scientist. It reminded me that I am capable of accomplishing anything if I put my mind to it.",
     },
     gitHubLink: "https://github.com/smkhalil2/Toy-Genome-Assembler",
-    img: "/images/projects/sketches/bioinformatics3.png",
+    img: "/images/projects/sketches/bioinformatics4.png",
     img_classes: "",
     slides: [
       {
@@ -108,7 +108,7 @@ export const projectData = [
     description:{context:'Color Palette Maker is an art tool built with React.js and Material UI. You can explore pre-made color palettes for inspiration, or you can build and save your own. Clicking on a color copies it to your clipboard. You can choose to copy it as an hex, rgb, or rgba value. Using a slider, you can increase or decrease the saturation of colors in a palette. Selecting \'More\' on a color display different shades of that color.', contribution:'I programmed this project using JavaScript, HTML, and CSS. I used Material UI components with custom styles. I utilized built-in React hooks and also defined custom hooks. I defined reusable components that are configured differently to perform multiple functions across the app. The UI is responsive; Text color changes to remain readable depending on how light or dark a color is and the palettes change shape to scale with the browser window.', lesson:'This project allowed me to exercise skills learned as part of a Udemy online React bootcamp. As the course was created for class based React, I made an effort to redesign it to use functional React. This allowed me to use hooks to handle state changes. I also personalized the UI design to look more modern and engaging.'},
     category: "React App",
     gitHubLink: "https://github.com/smkhalil2/Color-Palette-Project",
-    img: "/images/projects/sketches/paintbucket2.png",
+    img: "/images/projects/sketches/paintbucket3.png",
     img_classes: "",
     slides: [
       {
@@ -123,7 +123,10 @@ export const projectData = [
   {
     id: 6,
     title: "This Website!",
-    description:{context:'I designed this site with Figma and built it using React.js with Next.js and TailwindCSS. I chose to use TailwindCSS because it allowed me to construct a prototype quickly and apply changes easily. I was able to construct a first deployment in a week and implemented a total redesign in about two days. I am using Next.js to take advantage of server-side rendering to decrease load times, and because Next.js makes it easier to implement page routing.', contribution:'I began by designing a wireframe in Figma that was essentially a breakdown of my resume. Originally, I was inspired by the color palette of \"Spider-Man: Across the Spider-Verse\" and incorporated the purple and green associated with Spider-Gwen\'s universe into the design. I converted my wireframe into a low fidelity mockup for a single page site. Using this mockup as a basis, I constructed an initial deployment. I sent this prototype out to friends and family for review. Feedback was positive overall, with some complaints that the animated skill badges were misleading as they were not clickable and that some of the text was hard to read over the hero section\'s background colors.\n\nPersonally, I was not yet satisfied with the site. I felt the initial design lacked a sense of modernity, fun, or style. I wanted the site to showcase my creativity and subtly hint at my nerdiness, but I was afraid of going overboard and risking making UI appear amateurish. While researching UI inspiration, I discovered candycode.com. Please excuse this shameless plug, but their sites unique UI blew me away. Their use of color with pop and counter culture imagery imbued their site with a sense of magic and rebellious creativity that encouraged me to think outside the box. \n\nMy subsequent redesign of the site embraces my personal creative style and nerdiness. The white 60\'s sci-fi dots are inspired by the interior of the classic TARDIS from BBC\'s \"Doctor Who\." They to create a sense of vast, open space. I sketched the illustrations on these project cards in Autodesk Sketchbook Pro in my personal style to showcase my creativity, imagination, and attention to detail.', lesson:'Building this site has been a valuable experience both practically and creatively. As my first real project outside of academia and online courses, I set out to define my own criteria for success. I was able to apply what I have learned in React.js and Figma, but I also had to teach myself new tools like TailwindCSS. I took inspiration from candycode.com to think about what makes me unique as an artist and use my skills to express my personality with UI design. \n\nThank you for exploring my site! I hope we get to work together to create unique digital experiences.'},
+    description:{
+      context:'I designed this site with Figma and built it using React.js with Next.js and TailwindCSS. I chose to use TailwindCSS because it allowed me to construct a prototype quickly and apply changes easily. I was able to construct a first deployment in a week and implemented a total redesign in about two days. I am using Next.js to take advantage of server-side rendering to decrease load times, and because Next.js makes it easier to implement page routing.', 
+      contribution:'I began by designing a wireframe in Figma that was essentially a breakdown of my resume. Originally, I was inspired by the color palette of \"Spider-Man: Across the Spider-Verse\" and incorporated the purple and green associated with Spider-Woman\'s (Gwen Stacy) universe into the design. I converted my wireframe into a low fidelity mockup for a single page site. Using this mockup as a basis, I constructed an initial deployment. I sent this prototype out to friends and family for review. Feedback was positive overall, with some complaints that animated skill badges were misleading as they were not clickable and that some of the text was hard to read over the hero section\'s background colors.\n\nPersonally, I was not yet satisfied with the site. I felt the initial design felt cramped, dated, and lacked my personal style. I wanted the site to showcase my creativity and subtly hint at my nerdiness, but I was afraid of going overboard and risking making UI appear amateurish. While researching UI inspiration, I discovered candycode.com. Please excuse this shameless plug, but their sites unique UI blew me away. Their use of color with pop and counter culture imagery imbued their site with a sense of magic and rebellious creativity that encouraged me to think outside the box. \n\nMy subsequent redesign of the site embraces my personal creative style and nerdiness. The white 60\'s sci-fi dots are inspired by the interior of the classic TARDIS from BBC\'s \"Doctor Who\." They to create a sense of vast, open space. I sketched the illustrations on these project cards in Autodesk Sketchbook Pro in my personal style to showcase my creativity, imagination, and attention to detail.', 
+      lesson:'Building this site has been a valuable experience both practically and creatively. As my first real project outside of academia and online courses, I set out to define my own criteria for success. I was able to apply what I have learned in React.js and Figma, but I also had to teach myself new tools like TailwindCSS. I took inspiration from candycode.com to think about what makes me unique as an artist and use my skills to express my personality with UI design. \n\nThank you for exploring my site! I hope we get to work together to create unique digital experiences.'},
     category: "React App",
     gitHubLink: "https://github.com/smkhalil2?tab=repositories",
     img: "/images/projects/sketches/bird2.png",
