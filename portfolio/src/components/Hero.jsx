@@ -30,7 +30,7 @@ const learnMoreIcon = (
 const Hero = ({ darkMode }) => {
   // const [isFocused, setFocus] = useState(false);
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col mb-16">
       <div className="flex flex-row items-center justify-evenly h-96 bg-[url('/images/BackgroundDots.png')] dark:bg-[url('/images/darkBackgroundDots5.png')] lg:bg-contain bg-cover">
         {/* <div className="flex lg:flex-row flex-col items-center"> */}
         <div  className="flex flex-col lg:px-2 px-8 lg:mt-0 w-auto">
@@ -60,14 +60,14 @@ const Hero = ({ darkMode }) => {
         </div>
 
         <Image
-          className="md:flex md:w-[16%] hidden"
-          width={1200}
+          className="md:flex xl:w-[15%] md:w-[18%] hidden"
+          width={1000}
           height={1200}
-          src="/images/profile-pic.png"
+          src="/images/profile-pic2.png"
           alt="Shadi's personal headshot"
         />
         {/* Skill Badges */}
-        <div className="absolute inset-y-80 h-20 w-auto z-40 justify-between">
+        <div className="absolute inset-y-[22rem] h-20 w-auto z-40 justify-between">
           <Skills darkMode={darkMode} />
         </div>
       </div>
