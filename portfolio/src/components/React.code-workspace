@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"workbench.preferredDarkColorTheme": "SynthWave '84",
+		"window.autoDetectColorScheme": true,
+		"workbench.colorTheme": "SynthWave '84"
+	}
+}
