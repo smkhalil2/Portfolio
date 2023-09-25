@@ -63,7 +63,7 @@ const Hero = ({ darkMode }) => {
           className="md:flex xl:w-[15%] md:w-[18%] hidden"
           width={1000}
           height={1200}
-          src="/images/profile-pic2.png"
+          src="/images/profile-pic3.png"
           alt="Shadi's personal headshot"
         />
         {/* Skill Badges */}
