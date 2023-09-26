@@ -93,9 +93,9 @@ const ProjectDescription = ({
                     {description.contribution}
                 </div>
                 <br/>
-                <h1 className='font-extrabold text-xl'>What I Learned</h1>
+                <h1 className='font-extrabold text-xl'>More</h1>
                 <div className='text-slate-300'>
-                    {description.lesson}
+                    {description.more}
                 </div>
             </div>
             <br/>
