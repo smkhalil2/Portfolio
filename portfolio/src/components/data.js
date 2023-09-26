@@ -35,9 +35,9 @@ export const projectData = [
       context:
         "Healthify is the front-end of an Android health and fitness app built in Android Studio for a human-computer interaction course at UMD. The course focused on the principles of UI/UX design; The goal of the project was to generate a prototype prepared for user testing, then to apply the data from testing toward improving the design.",
       contribution:
-        "I worked as both a developer and designer. I programmed pages for the Nutrition section of the app where a user could log calorie consumption and research nutrition facts about food items. \n\nThe professor was unimpressed with our original prototype, citing poor accessibility and an unattractive interface. To address these issues, I reworked the design. I generated high-fidelity mockups in PowerPoint that served as templates for our final design. My final design received praise for its brand colors, icons, and consistent UI.",
+        "I worked as both a developer and designer. I programmed pages for the Nutrition section of the app where a user could log calorie consumption and research nutrition facts about food items. \n\nThe professor was unimpressed with our original prototype, citing poor accessibility and an unattractive interface. I completely redesigned the app to address his feedback. I generated high-fidelity mockups in PowerPoint which we used as templates for the final version. My final design received praise from the professor for creatively integrating icons and brand colors while maintaining a consistent UI.",
       more:
-        "This project was my first attempt at UI design, and I had a lot of fun with it. I found the course illuminated, it presented me with new opportunities to combine my skills and passion as an artist with computer science.",
+        "This project was my first experience with UI design, and I had a lot of fun with it! I wanted to redesign the app before our next meeting. The two day deadline energized me to work quickly and decisively. I examined interfaces I liked on my phone and tried to dissect why I liked them aesthetically. This project presented me with new opportunities to combine my skills and passion as an artist with computer science.",
     },
     category: "Android App",
     gitHubLink: "https://youtu.be/U42hCzOBTfI",
@@ -94,7 +94,7 @@ more:"I learned to use Figma tools and techniques inclduing basic Figma structur
     img_classes: "",
     slides: [
       {
-        src: "/images/projects/lilyhoney4.png",
+        src: "/images/projects/LilyHoneyThumbnail.png",
         caption: "lilyhoney",
         index: 1,
       },
