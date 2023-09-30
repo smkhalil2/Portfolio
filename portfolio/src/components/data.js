@@ -3,7 +3,7 @@ export const projectData = [
     id: 4,
     title: "Space Vampire",
     description: {
-      context:"Action-adventure 3D platformer built in Unity/C# for a game development course at UMD. The player takes the role of Captain Count Orlock, a vampire lost in space. I wanted to explore the implications of an undead being forced to wander the cosmos forever.",
+      context:"Space Vampire is an action-adventure 3D platformer built in Unity/C# for a game development course at UMD. The player takes the role of Captain Count Orlock, a vampire lost in space. I wanted to explore the implications of an undead being forced to wander the cosmos forever.",
       contribution: "As Creative Director, I originated the concept and characters. I generated concept art and constructed 3D models with Blender3D. \n\nAs Project Manager, I established our goals and organized our schedule to complete the project on time within budget and within scope. I programmed user input and character animations with Unity/C#.",
       more:"This project was a fantastic experience! When I shared the concept with my teammates, they lit up and ran with it. It was very rewarding realizing one of my ideas from sketch to product with the help of my team."
     },
@@ -44,7 +44,7 @@ export const projectData = [
     img: "/images/projects/sketches/healthify6.png",
     img_classes: "scale-75",
     slides: [
-      { src: "/images/projects/healthify.png", caption: "healthify", index: 5 },
+      { src: "/images/projects/HealthifyThumbnail.png", caption: "healthify", index: 5 },
     ],
     skills: [
       "UI/UX Design",
@@ -72,7 +72,7 @@ export const projectData = [
     img_classes: "",
     slides: [
       {
-        src: "/images/projects/genomeAssembler2.png",
+        src: "/images/projects/GenomeAssemblerThumbnail.png",
         caption: "genome assembler",
         index: 3,
       },
@@ -104,8 +104,8 @@ more:"I learned to use Figma tools and techniques inclduing basic Figma structur
   },
   {
     id: 2,
-    title: "Color Palette Maker",
-    description:{context:"Color Palette Maker is an art tool built with React.js and Material UI. You can explore pre-made color palettes for inspiration, or you can build and save your own. You can also copy color codes to your clipboard as HEX, RGB, or RGBA values.", 
+    title: "Paint Palette",
+    description:{context:"Paint Palette is an art tool built with React.js and Material UI. You can explore pre-made color palettes for inspiration, or you can build and save your own. You can also copy color codes to your clipboard as HEX, RGB, or RGBA values.", 
 contribution:"I programmed this project using JavaScript, HTML, and CSS. I used Material UI components with custom styles. I utilized built-in React hooks and also defined custom hooks. The UI is responsive; Text color changes to remain readable depending on how light or dark a color is and the palettes change shape to scale with the browser window.", 
 more:"This project allowed me to exercise skills learned as part of a Udemy online React bootcamp. Though the course was created for class based React, I redesigned it to use functional React. This allowed me to use hooks to handle state changes. I also personalized the UI design to look more modern and engaging."},
     category: "React App",
@@ -124,7 +124,7 @@ more:"This project allowed me to exercise skills learned as part of a Udemy onli
   },
   {
     id: 6,
-    title: "This Website!",
+    title: "About this Page",
     description:{
       context:"I designed this site with Figma and built it using React.js with Next.js and TailwindCSS. I chose to use TailwindCSS because it allowed me to construct a prototype quickly and apply changes easily. I was able to construct a first deployment in a week and implemented a total redesign in about two days. I am using Next.js to take advantage of its simplified routing and server-side rendering to decrease load times.", 
       contribution:"I began by designing a wireframe in Figma that was essentially a breakdown of my resume. I converted my wireframe into a low fidelity mockup for a single page site. Using this mockup as a basis, I constructed an initial deployment. I sent this prototype out to friends and family for review. Feedback was positive overall, but personally, I was not yet satisfied with the site. I wanted the site to showcase my creativity and subtly hint at my nerdiness, but I was afraid of going overboard and risking making UI appear amateurish. \n\nMy subsequent redesign of the site embraces my personal creative style and nerdiness. The white 60\'s sci-fi dots are inspired by the interior of the classic TARDIS from BBC\'s \"Doctor Who\". They to create a sense of vast, open space. I sketched the illustrations on these project cards in Autodesk Sketchbook Pro in my personal style.", 
