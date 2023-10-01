@@ -94,7 +94,7 @@ more:"I learned to use Figma tools and techniques inclduing basic Figma structur
     img_classes: "",
     slides: [
       {
-        src: "/images/projects/LilyHoneyThumbnail.png",
+        src: "/images/projects/LilyHoneyThubnail.png",
         caption: "lilyhoney",
         index: 1,
       },
