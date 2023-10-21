@@ -13,6 +13,7 @@ const Navbar = () => {
   const handleToggleMenu = () => {
     toggleMenu(!menuIsOpen);
   };
+  
 
   //   Not implemented yet
   // const handleToggleTheme = () => {
