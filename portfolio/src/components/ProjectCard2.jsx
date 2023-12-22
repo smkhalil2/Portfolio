@@ -67,7 +67,7 @@ const ProjectCard = ({
                     ${inView ? "motion-safe:animate-fadeIn" : ""}`}
                 >
                   <div className="flex w-full m-6 p-8 justify-between items-center">
-                    <h1 className="text-slate-100 dark:text-slate-900 md:text-5xl text-2xl font-bold w-1/2 z-20">
+                    <h1 className="text-slate-100 dark:text-slate-900 md:text-5xl text-2xl font-bold w-1/2">
                       {title}
                     </h1>
                     {/* Image */}
