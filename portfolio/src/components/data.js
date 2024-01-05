@@ -3,9 +3,9 @@ export const projectData = [
     id: 4,
     title: "Space Vampire",
     description: {
-      context:"Space Vampire is an action-adventure 3D platformer built in Unity/C# for a game development course at UMD. The player takes the role of Captain Count Orlock, a vampire lost in space. I wanted to explore the implications of an undead being forced to wander the cosmos forever.",
-      contribution: "As Creative Director, I originated the concept and characters. I generated concept art and constructed 3D models with Blender3D. \n\nAs Project Manager, I established our goals and organized our schedule to complete the project on time within budget and within scope. I programmed user input and character animations with Unity/C#.",
-      more:"This project was a fantastic experience! When I shared the concept with my teammates, they lit up and ran with it. It was very rewarding realizing one of my ideas from sketch to product with the help of my team."
+      context: "Captain Count Orlock is an undead cosmic voyager set adrift amongst the stars. In the year 2897, the thousand-year-old villain is outed as a vampire and exiled from planet Earth aboard the Starship Demeter. With only the ships onboard AI for company, he travels to the Bat Nebula to recover the lost relics of Cosmo-Baron Ko-Ehn. When he\’s collected them all, he shall be powerful enough to return home and conquer the Earth! \n\n Will the Space Vampire have his revenge? Or could he rediscover his long-lost humanity on a far-out celestial odyssey?",
+      contribution: "", //"As Creative Director, I originated the concept and characters. I generated concept art and constructed 3D models with Blender3D. \n\nAs Project Manager, I established our goals and organized our schedule to complete the project on time within budget and within scope. I programmed user input and character animations with Unity/C#.",
+      more: "", //"This project was a fantastic experience! When I shared the concept with my teammates, they lit up and ran with it. It was very rewarding realizing one of my ideas from sketch to product with the help of my team."
     },
     category: "Video Game",
     gitHubLink:
