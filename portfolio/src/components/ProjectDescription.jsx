@@ -83,7 +83,10 @@ const ProjectDescription = ({
               <Image alt={`${title} Image`} className='scale-75' width={1200} height={1200} src={slides[0].src} />
             {/* </div> */}
             <div className='whitespace-pre-line grid grid-flow-row text-left'>
-                <h1 className='font-extrabold text-xl'>Background</h1>
+                <div className="text-slate-300">
+                  {description.context}
+                </div>
+                {/* <h1 className='font-extrabold text-xl'>Background</h1>
                 <div className='text-slate-300'>
                     {description.context}
                 </div>
@@ -96,7 +99,7 @@ const ProjectDescription = ({
                 <h1 className='font-extrabold text-xl'>More</h1>
                 <div className='text-slate-300'>
                     {description.more}
-                </div>
+                </div> */}
             </div>
             <br/>
             {/* Button

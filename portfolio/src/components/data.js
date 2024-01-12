@@ -33,9 +33,9 @@ export const projectData = [
     title: "Healthify",
     description: {
       context:
-        "Healthify is the front-end of an Android health and fitness app built in Android Studio for a human-computer interaction course at UMD. The course focused on the principles of UI/UX design; The goal of the project was to generate a prototype prepared for user testing, then to apply the data from testing toward improving the design.",
+        "Healthify is an Android health and fitness tracker that allows you to organize your fitness goals. Whether you're organizing a new workout regimine or optimizing your calorie intake, plan, log, learn, and commit to following through with Healthify.",
       contribution:
-        "I worked as both a developer and designer. I programmed pages for the Nutrition section of the app where a user could log calorie consumption and research nutrition facts about food items. \n\nThe professor was unimpressed with our original prototype, citing poor accessibility and an unattractive interface. I completely redesigned the app to address his feedback. I generated high-fidelity mockups in PowerPoint which we used as templates for the final version. My final design received praise from the professor for creatively integrating icons and brand colors while maintaining a consistent UI.",
+        "I worked as both a developer and designer. I programmed pages for the Nutrition section of the app where a user could log calorie consumption and research nutrition facts about food items. \n\nAfter a critical review, I let the redesign. I generated high-fidelity mockups in PowerPoint which served as templates for the final version. My final design received praise from the professor for creatively integrating icons and brand colors while maintaining a consistent UI.",
       more:
         "This project was my first experience with UI design, and I had a lot of fun with it! I wanted to redesign the app before our next meeting. The two day deadline energized me to work quickly and decisively. I examined interfaces I liked on my phone and tried to dissect why I liked them aesthetically. This project presented me with new opportunities to combine my skills and passion as an artist with computer science.",
     },
@@ -61,9 +61,9 @@ export const projectData = [
     category: "Java/Python Program",
     description: {
       context:
-        "This toy genome assembler uses bioinformatic algorithms to analyze gene fragments, and reconstruct and index genomes. Parts of the project are programmed in Python or C++, but I primarily used Java.",
+        "This toy genome assembler uses bioinformatic algorithms to analyze gene fragments, and reconstruct and index genomes. Parts of the project are programmed in Python or C++, but I primarily used Java. \n\nThe program implements a greedy algorithm for determining the shortest common superstring of a collection of gene fragments to reassemble the genome. It also indexes the genome by constructing a suffix array and using the Burrows-Wheeler transform of the genome to generate an FM-index. It uses these indexes to align genes on the genome and determine the accuracy of possible alignments. ",
       contribution:
-        "The project is the culmination of five assignments completed throughout the semester.Project one uses a greedy algorithm to determine the shortest common superstring of a collection of gene fragments to reassemble a genome. Projects two and three index a genome by constructing a suffix array and using the Burrows-Wheeler transform of the genome to generate an FM-index, respectively. Projects four and five use these indexes to align genes on the genome and determine the accuracy of possible alignments.",
+        "The project is the culmination of five assignments completed throughout the semester. Project one uses a greedy algorithm to determine the shortest common superstring of a collection of gene fragments to reassemble a genome. Projects two and three index a genome by constructing a suffix array and using the Burrows-Wheeler transform of the genome to generate an FM-index, respectively. Projects four and five use these indexes to align genes on the genome and determine the accuracy of possible alignments.",
       more:
         "Hard work pays off. I sat down for hours with these problems for days, reviewed the course material repeatedly, and found numerous outside resources to help me understand the complicated algorithms I had to implement. I was fueled by a love of biology and a desire to understand the material. I got 100% on all five projects which gave me the confidence I needed to trust myself as a graduating computer scientist. I can accomplishing anything if I put my mind to it.",
     },
@@ -84,7 +84,8 @@ export const projectData = [
     id: 1,
     title: "LilyHoney",
     description: {context: 
-"LilyHoney is an eCommerce site UI designed in Figma as part of a Udemy online course. The fictional brand was generated randomly, the name is a combination of my cat\'s name and a random product. The product is a high quality organic honey marketed towards working adults ages 25-40.", 
+      "LilyHoney invites you to enjoy the natural sweetness of cruelty-free, farmer's market quality honey at supermarket prices. Now, you can order fresh, locally sourced honey right to your door with our online store. Save your favorites, review local brands, and discover high quality alternatives to the leading market brands with LilyHoney.",
+// "LilyHoney is an eCommerce site UI designed in Figma as part of a Udemy online course. The fictional brand was generated randomly, the name is a combination of my cat\'s name and a random product. The product is a high quality organic honey marketed towards working adults ages 25-40.", 
 contribution:"I began by generating a task flow for purchasing an item which I used to generate a low-fidelity wireframe Figma. After constructing a mood board and establishing a color palette, I designed an interactive high-fidelity mockup. I developed the brand and created a logo. I generated product shots using AI image generators.", 
 more:"I learned to use Figma tools and techniques inclduing basic Figma structures like frames, shapes, and text components. I also learned how to convert these into reusable assets, create custom icons and logos, define variables, use effects, and implement animations. I applied UI/UX design principles to address accessibility, responsiveness, and branding, applying features like Auto-Layout and Constraints to build a visually appealing and consistent UI."},
     category: "eCommerce Site UI Concept",
@@ -225,3 +226,11 @@ export const slideImages = [
 ];
 
 
+export const art = [
+  {src: "",
+    caption: "",
+  index: 0,
+},
+
+
+];
