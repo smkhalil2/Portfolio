@@ -12,8 +12,8 @@ const Layout = ({ children }) => {
   // const [trigger, setTrigger] = useState(false); 
   useEffect(()=> {
     setTimeout(() => {
-      {alert("THIS SITE IS UNDER CONSTRUCTION!!! \nSome elements are being redesigned so be sure to check back later to see whats new.")}
-    }, 5000);
+    //   {alert("THIS SITE IS UNDER CONSTRUCTION!!! \nSome elements are being redesigned so be sure to check back later to see whats new.")}
+    // }, 5000);
   }, []);
   
   return (
