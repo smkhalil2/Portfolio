@@ -62,9 +62,9 @@ const Hero = ({ darkMode }) => {
               bg-[#000000] text-[#F5F5F5] 
               dark:bg-[#f5f5f5] dark:text-[#000000]
               hover:opacity-60 hover:duration-300"
-                href="https://shadikhalil.webflow.io"
+                href="https://shadikhalilux.webflow.io"
               >
-                UX Portfolio
+                  UX Portfolio
 
               </Link>
             </div>
