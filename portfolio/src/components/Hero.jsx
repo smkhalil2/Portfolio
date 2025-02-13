@@ -56,7 +56,7 @@ const Hero = ({ darkMode }) => {
                 
               </Link>
               <Link
-                className="flex pr-4 py-4 h-8 w-auto text-xl rounded-lg
+                className="flex px-4 py-4 h-8 w-auto text-xl rounded-lg
               items-center whitespace-nowrap ml-2
               border-2 border-transparent
               bg-[#000000] text-[#F5F5F5] 
